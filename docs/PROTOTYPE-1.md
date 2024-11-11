@@ -22,26 +22,25 @@
 
 ## BOM
 
-- ESP32 Microcontroller Dev board with USB power & JTAG
+* ESP32 Microcontroller Dev board with USB power & JTAG
   - Cheaper than Arduino and all pins have interrupts. This will be useful assuming we will need to use interrupts for RPM sensing and can use it for other sensors as well (e.g. we can have one pattern for all sensors).
   - Bluetooth and Wi-Fi were NOT part of criteria but are interesting for the future
   - Multiple dev board form factors (wide, narrow, all different pins)
   - Narrow ESP32 Dev Board:
     - [Shen Zhen Shi Ya Ying Technology ESP32 Wi-Fi & Bluetooth Development Board](https://fccid.io/2A4RQ-ESP32/User-Manual/Users-Manual-5713740)
-
-- L293D Motor controller IC
+* L293D Motor controller IC
   - Easy to find on Aliexpress and has a built-in diode, so it saves some time
-- OPB991L11Z Optical switch (identical)
-- 12V DC Motor, ~200RPM (approximation)
-- (2) momentary push-buttons
-- (2) status LEDs
-- 10K&#937; sliding potentiometer (&#937; coming from legacy slider's parameters)
-- (1) LED display (3-digit to come)
-- Power regulation IC (s)
-- Power-in via external source (voltage TBD)
-- Assorted pull up/down resistors
-- Capacitor to protect DC motor
-- DIN connectors (for power harness, etc - optional)
+* [OPB991L11Z Optical switch (identical)](../docs/datasheets/OPB960-990.pdf)
+* 12V DC Motor, ~200RPM (approximation)
+* (2) momentary push-buttons
+* (2) status LEDs
+* 10K&#937; sliding potentiometer (&#937; coming from legacy slider's parameters)
+* (1) LED display (3-digit to come)
+* Power regulation IC (s)
+* Power-in via external source (voltage TBD)
+* Assorted pull up/down resistors
+* Capacitor to protect DC motor
+* DIN connectors (for power harness, etc - optional)
 
 ## Development Platform
 

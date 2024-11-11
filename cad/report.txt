@@ -1,0 +1,55 @@
+Info: Processing symbol 'PR1:'.
+Info: Processing symbol 'PC1:'.
+Info: Processing symbol 'DD1:DIPS762W45P254L2253H635Q12N'.
+Info: Processing symbol 'DR1:'.
+Info: Processing symbol 'USW2:'.
+Info: Processing symbol 'DU1:Package_DIP:DIP-24_W7.62mm'.
+Info: Processing symbol 'USW1:'.
+Info: Processing symbol 'M1:'.
+Info: Processing symbol 'UR1:'.
+Info: Processing symbol 'MC1:'.
+Info: Processing symbol 'UD2:'.
+Info: Processing symbol 'MR1:'.
+Info: Processing symbol 'UD1:'.
+Info: Processing symbol 'MU1:Package_DIP:DIP-16_W7.62mm'.
+Info: Processing symbol 'U1:ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32D'.
+Info: Processing symbol 'PC2:'.
+Info: Processing symbol 'PU1:Package_DIP:DIP-8_W7.62mm'.
+Info: Processing symbol 'PC3:'.
+Info: Processing symbol 'PTC2:'.
+Info: Processing symbol 'PD1:'.
+Info: Processing symbol 'PTC1:'.
+Info: Processing symbol 'PDC1:'.
+Info: Processing symbol 'PRSC1:'.
+Info: Processing symbol 'PL1:'.
+Info: Processing symbol 'PR2:'.
+Info: Processing symbol 'PL2:'.
+Add DD1 (footprint 'DIPS762W45P254L2253H635Q12N').
+Add MU1 (footprint 'Package_DIP:DIP-16_W7.62mm').
+Add PU1 (footprint 'Package_DIP:DIP-8_W7.62mm').
+Add DU1 (footprint 'Package_DIP:DIP-24_W7.62mm').
+Error: Cannot add PR1 (no footprint assigned).
+Error: Cannot add PL1 (no footprint assigned).
+Error: Cannot add PR2 (no footprint assigned).
+Error: Cannot add PDC1 (no footprint assigned).
+Error: Cannot add PRSC1 (no footprint assigned).
+Error: Cannot add PD1 (no footprint assigned).
+Error: Cannot add PTC1 (no footprint assigned).
+Error: Cannot add PC3 (no footprint assigned).
+Error: Cannot add PTC2 (no footprint assigned).
+Error: Cannot add PC2 (no footprint assigned).
+Error: Cannot add PC1 (no footprint assigned).
+Error: Cannot add U1 (footprint 'ESP32-DEVKITC-32D:MODULE_ESP32-DEVKITC-32D' not found).
+Error: Cannot add MR1 (no footprint assigned).
+Error: Cannot add UD1 (no footprint assigned).
+Error: Cannot add MC1 (no footprint assigned).
+Error: Cannot add UD2 (no footprint assigned).
+Error: Cannot add M1 (no footprint assigned).
+Error: Cannot add UR1 (no footprint assigned).
+Error: Cannot add USW1 (no footprint assigned).
+Error: Cannot add DR1 (no footprint assigned).
+Error: Cannot add PL2 (no footprint assigned).
+Error: Cannot add USW2 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 22.

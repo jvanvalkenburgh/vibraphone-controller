@@ -1,0 +1,1144 @@
+14:47:18,456  INFO [main] ConfigurationManager - Initializing configuration for: diylc
+14:47:18,973  INFO [main] ConfigurationManager - Saving configuration
+14:47:19,389  INFO [main] DIYLCStarter - JarLoader strategy: agent
+14:47:19,390  INFO [main] DIYLCStarter - Loading languages...
+14:47:19,391  INFO [main] LangUtil - Loading translation for English
+14:47:19,392 DEBUG [main] LangUtil - Loading language file: /home/jvanvalkenburgh/Downloads/diylc-4.37.0/lang/English.txt
+14:47:19,397 DEBUG [main] DIYLCStarter - Java version: 17.0.9+9 by Red Hat, Inc.
+14:47:19,404 DEBUG [main] DIYLCStarter - Java home: /usr/lib/jvm/java-17-openjdk-17.0.9.0.9-3.fc39.x86_64
+14:47:19,404 DEBUG [main] DIYLCStarter - OS: Linux 6.6.13-200.fc39.x86_64
+14:47:19,404  INFO [main] DIYLCStarter - Starting DIYLC with working directory /home/jvanvalkenburgh/Downloads/diylc-4.37.0
+14:47:19,404  INFO [main] DIYLCStarter - Configuration dump start.
+14:47:19,405  INFO [main] DIYLCStarter - antiAliasing = true
+14:47:19,405  INFO [main] DIYLCStarter - hiQualityRender = true
+14:47:19,406  INFO [main] DIYLCStarter - highlightContinuityArea = false
+14:47:19,406  INFO [main] DIYLCStarter - cachingEnabled = false
+14:47:19,406  INFO [main] DIYLCStarter - defaultBlocksImported = true
+14:47:19,406  INFO [main] DIYLCStarter - Configuration dump end.
+14:47:19,648  INFO [main] DIYLCStarter - Creating the main frame...
+14:47:19,649  INFO [Thread-1] FontOptimizer - Starting font optimizer
+14:47:19,650 DEBUG [Thread-1] FontOptimizer - Fonts loaded in 0ms
+14:47:19,948  INFO [main] Presenter - Current DIYLC version: 4.37.0
+14:47:19,961  INFO [main] Presenter - Loading component types.
+14:47:19,963 DEBUG [main] Utils - Scanning jar: /home/jvanvalkenburgh/Downloads/diylc-4.37.0/lib/diylc-core.jar
+14:47:20,024 DEBUG [main] Utils - Scanning jar: /home/jvanvalkenburgh/Downloads/diylc-4.37.0/library/main.jar
+14:47:20,074  INFO [Thread-1] FontOptimizer - Font optimization completed in 416ms. Found 1 slow fonts
+14:47:20,077 DEBUG [Thread-1] FontOptimizer - Slow fonts: Bitstream Charter
+14:47:20,079  INFO [Thread-1] ConfigurationManager - Saving configuration
+14:47:20,321  INFO [main] Presenter - Loading additional library JARs
+14:47:20,322 DEBUG [main] JarScanner - Found JAR file: main.jar
+14:47:20,322 DEBUG [main] JarScanner - Scanning main.jar
+14:47:20,402  INFO [main] ClassLoaderUtil - Adding file to the classpath: /home/jvanvalkenburgh/Downloads/diylc-4.37.0/library/main.jar
+14:47:20,408 DEBUG [main] JarScanner - Loaded class: org.diylc.components.Abstract3LegSymbol
+14:47:20,408 DEBUG [main] JarScanner - Loaded class: org.diylc.components.AbstractLeadedComponent
+14:47:20,408 DEBUG [main] JarScanner - Loaded class: org.diylc.components.AbstractMultiPartComponent
+14:47:20,408 DEBUG [main] JarScanner - Loaded class: org.diylc.components.AbstractSchematicLeadedSymbol
+14:47:20,408 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.AbstractBoard
+14:47:20,408 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.AbstractProtoBoard
+14:47:20,408 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.AbstractVeroBoard
+14:47:20,408 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.BlankBoard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.Breadboard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.EurorackStripboard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.EyeletBoard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.MarshallPerfBoard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.PerfBoard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.ProtoBoard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.ProtoBoard780
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.TagStrip
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.TerminalStrip
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.TriPadBoard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.boards.VeroBoard
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.chassis.ChassisPanel
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.chassis.DialScale
+14:47:20,409 DEBUG [main] JarScanner - Loaded class: org.diylc.components.chassis.EllipticalCutout
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.chassis.PolygonalCutout
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.chassis.RectangularCutout
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.CopperTrace
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.CurvedTrace
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.CutLine
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.Dot
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.Eyelet
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.GroundFill
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.HookupWire
+14:47:20,410 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.Jumper
+14:47:20,412 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.Line
+14:47:20,414 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.PCBTerminalBlock
+14:47:20,414 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.SolderLug
+14:47:20,414 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.SolderPad
+14:47:20,414 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.TraceCut
+14:47:20,414 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.Turret
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.connectivity.TwistedWire
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.BatterySnap9V
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.CliffJack1_4
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.CliffJack1_8
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.ClosedJack1_4
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.DIPSwitch
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.FuseHolderPanel
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.IECSocket
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.MiniRelay
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.MiniToggleSwitch
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.NeutrikJack1_4
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.OpenJack1_4
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.OpenJack1_8
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.PhonoJackSymbol
+14:47:20,415 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.PilotLampHolder
+14:47:20,416 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.PinHeader
+14:47:20,416 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.PlasticDCJack
+14:47:20,416 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.RCAJack
+14:47:20,417 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.RotarySelectorSwitch
+14:47:20,417 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.RotarySwitchOpen
+14:47:20,417 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.RotarySwitchSealed
+14:47:20,417 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.SlideSwitch
+14:47:20,420 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.SwitchLatchingSymbol
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.electromechanical.TactileMicroSwitch
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.AbstractGuitarPickup
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.AbstractSingleOrHumbuckerPickup
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.HumbuckerPickup
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.JazzBassPickup
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.LPSwitch
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.LeverSwitch
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.P90Pickup
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.PBassPickup
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.S1Switch
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.SchallerMegaSwitch
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.SingleCoilPickup
+14:47:20,421 DEBUG [main] JarScanner - Loaded class: org.diylc.components.guitar.StingrayBassPickup
+14:47:20,422 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.BOM
+14:47:20,423 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.BatterySymbol
+14:47:20,423 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.BulbSchematicSymbol
+14:47:20,423 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.CommonNode
+14:47:20,423 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.CurrentSourceSymbol
+14:47:20,424 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.GroundSymbol
+14:47:20,424 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.Image
+14:47:20,424 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.Label
+14:47:20,424 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.Loadline
+14:47:20,424 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.LoadlineCurve
+14:47:20,424 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.PCBText
+14:47:20,424 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.SVGImage
+14:47:20,425 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.VoltageSourceSymbol
+14:47:20,425 DEBUG [main] JarScanner - Loaded class: org.diylc.components.misc.WrapLabel
+14:47:20,425 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.AbstractFilmCapacitor
+14:47:20,425 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.AbstractPotentiometer
+14:47:20,426 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.AbstractRadialComponent
+14:47:20,426 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.AirCoreInductor
+14:47:20,426 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.AudioTransformer
+14:47:20,426 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.AxialElectrolyticCapacitor
+14:47:20,426 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.AxialFilmCapacitor
+14:47:20,426 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.CapacitorSymbol
+14:47:20,427 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.CrystalOscillator
+14:47:20,427 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.FuseSymbol
+14:47:20,427 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.InductorSymbol
+14:47:20,427 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.MultiSectionCapacitor
+14:47:20,427 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.PotentiometerPanel
+14:47:20,428 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.PotentiometerSymbol
+14:47:20,428 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.RadialCeramicDiskCapacitor
+14:47:20,428 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.RadialElectrolytic
+14:47:20,428 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.RadialFilmCapacitor
+14:47:20,428 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.RadialInductor
+14:47:20,428 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.RadialMicaCapacitor
+14:47:20,428 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.Resistor
+14:47:20,428 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.ResistorSymbol
+14:47:20,429 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.TantalumCapacitor
+14:47:20,429 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.ToroidalInductor
+14:47:20,429 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.TransformerCoil
+14:47:20,429 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.TransformerCore
+14:47:20,429 DEBUG [main] JarScanner - Loaded class: org.diylc.components.passive.TrimmerPotentiometer
+14:47:20,430 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.AbstractDiodeSymbol
+14:47:20,430 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.AbstractTransistorPackage
+14:47:20,430 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.BJTSymbol
+14:47:20,430 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.BridgeRectifier
+14:47:20,430 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.DIL_IC
+14:47:20,430 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.DiodeGlass
+14:47:20,430 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.DiodePlastic
+14:47:20,431 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.DiodeSymbol
+14:47:20,431 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.ICSymbol
+14:47:20,431 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.JFETSymbol
+14:47:20,431 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.LED
+14:47:20,431 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.LEDSymbol
+14:47:20,431 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.LogicGateSymbol
+14:47:20,431 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.MOSFETSymbol
+14:47:20,432 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.PhotoDiodeSymbol
+14:47:20,432 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.SIL_IC
+14:47:20,432 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.SchottkyDiodeSymbol
+14:47:20,432 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.TransistorTO1
+14:47:20,432 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.TransistorTO126
+14:47:20,432 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.TransistorTO220
+14:47:20,433 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.TransistorTO3
+14:47:20,433 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.TransistorTO92
+14:47:20,433 DEBUG [main] JarScanner - Loaded class: org.diylc.components.semiconductors.ZenerDiodeSymbol
+14:47:20,433 DEBUG [main] JarScanner - Loaded class: org.diylc.components.shapes.AbstractShape
+14:47:20,433 DEBUG [main] JarScanner - Loaded class: org.diylc.components.shapes.Ellipse
+14:47:20,435 DEBUG [main] JarScanner - Loaded class: org.diylc.components.shapes.Polygon
+14:47:20,435 DEBUG [main] JarScanner - Loaded class: org.diylc.components.shapes.Rectangle
+14:47:20,435 DEBUG [main] JarScanner - Loaded class: org.diylc.components.shapes.TapeMeasure
+14:47:20,435 DEBUG [main] JarScanner - Loaded class: org.diylc.components.smd.PassiveSMDComponent
+14:47:20,435 DEBUG [main] JarScanner - Loaded class: org.diylc.components.smd.SMDCapacitor
+14:47:20,436 DEBUG [main] JarScanner - Loaded class: org.diylc.components.smd.SMDResistor
+14:47:20,436 DEBUG [main] JarScanner - Loaded class: org.diylc.components.tube.AbstractTubeSymbol
+14:47:20,436 DEBUG [main] JarScanner - Loaded class: org.diylc.components.tube.DiodeSymbol
+14:47:20,436 DEBUG [main] JarScanner - Loaded class: org.diylc.components.tube.DuoDiodeSymbol
+14:47:20,436 DEBUG [main] JarScanner - Loaded class: org.diylc.components.tube.Jumbo4PinTubeSocket
+14:47:20,436 DEBUG [main] JarScanner - Loaded class: org.diylc.components.tube.PentodeSymbol
+14:47:20,437 DEBUG [main] JarScanner - Loaded class: org.diylc.components.tube.SubminiTube
+14:47:20,437 DEBUG [main] JarScanner - Loaded class: org.diylc.components.tube.TriodeSymbol
+14:47:20,437 DEBUG [main] JarScanner - Loaded class: org.diylc.components.tube.TubeSocket
+14:47:20,476 DEBUG [main] ComponentProcessor - No matching setter found for org.diylc.components.connectivity.HookupWire.getLength. Skipping...
+14:47:20,575  INFO [main] DatasheetService - Loading datasheet file for AxialElectrolyticCapacitor.datasheet
+14:47:20,622  INFO [main] DatasheetService - Loaded 455 component sizes from the file
+14:47:20,632  INFO [main] DatasheetService - Loading datasheet file for RadialMicaCapacitor.datasheet
+14:47:20,667  INFO [main] DatasheetService - Loaded 434 component sizes from the file
+14:47:20,715  INFO [main] DatasheetService - Loading datasheet file for RadialElectrolytic.datasheet
+14:47:20,736  INFO [main] DatasheetService - Loaded 833 component sizes from the file
+14:47:20,855 DEBUG [main] ComponentProcessor - No matching setter found for org.diylc.components.connectivity.TwistedWire.getLength. Skipping...
+14:47:20,856  INFO [main] DatasheetService - Loading datasheet file for RadialFilmCapacitor.datasheet
+14:47:20,891  INFO [main] DatasheetService - Loaded 1523 component sizes from the file
+14:47:21,023 DEBUG [main] ComponentProcessor - No matching setter found for org.diylc.components.connectivity.CurvedTrace.getLength. Skipping...
+14:47:21,063  INFO [main] DatasheetService - Loading datasheet file for AxialFilmCapacitor.datasheet
+14:47:21,067  INFO [main] DatasheetService - Loaded 294 component sizes from the file
+14:47:21,096 DEBUG [main] Presenter - Guitar: [P- Bass Pickup, Single Coil Pickup, Jazz Bass Pickup, Humbucker Pickup, Lever Switch, Schaller Megaswitch, S1 Switch, P-90 Single Coil Pickup, LP Toggle Switch, Stingray Bass Pickup]
+14:47:21,097 DEBUG [main] Presenter - Passive: [Trimmer Potentiometer, Electrolytic Capacitor (Axial), Mica Capacitor (Radial), Electrolytic Capacitor (Radial), Resistor, Potentiometer, Film Capacitor (Radial), Crystal Oscillator, Mini Signal Transformer, Ceramic Capacitor (Radial), Tantalum Capacitor, Multi-Section Capacitor, Toroidal Inductor, Inductor (Radial), Film Capacitor (Axial)]
+14:47:21,098 DEBUG [main] Presenter - Semiconductors: [Transistor (TO-220), DIP IC, SIP IC, Bridge Rectifier, Transistor (TO-1), Transistor (TO-92), Transistor (TO-3), Diode (glass), Transistor (TO-126), LED, Diode (plastic)]
+14:47:21,098 DEBUG [main] Presenter - Boards: [Breadboard, Marshall Style Perf Board, Eurorack Stripboard, Proto Board 780 Holes, Terminal Strip, Perf Board w/ Pads, Eyelet Board, Vero Board, TriPad Board, Tag Strip, P-0+o (Proto) Board, Blank Board]
+14:47:21,098 DEBUG [main] Presenter - Misc: [Bill of Materials, Label, Tape Measure, Common Node, Dial Scale, PCB Text, SVG Image, Image, Auto-Wrap Label]
+14:47:21,098 DEBUG [main] Presenter - Connectivity: [Hookup Wire, Eyelet, Trace Cut, Solder Lug, Twisted Leads, PCB Terminal Block, Solder Pad, Turret Lug, Dot, Ground Fill, Curved Trace, Copper Trace, Cut Line, Jumper]
+14:47:21,098 DEBUG [main] Presenter - Tubes: [Tube Socket, Sub-Mini Tube, 4-pin Jumbo Tube Socket]
+14:47:21,098 DEBUG [main] Presenter - Schematic Symbols: [Diode, Capacitor, Ground, Diode Tube, Current Source, Pentode, Zener Diode, BJT, Switch (Latching), LED, Transformer Core, Bulb, Fuse, Resistor, Logic Gate, Battery, Duo-Diode, Schottky Diode, MOSFET, IC, Phono Jack, Potentiometer, JFET, Inductor, Triode, Transformer Coil, Voltage Source, Photo Diode]
+14:47:21,099 DEBUG [main] Presenter - Shapes: [Rectangle, Ellipse, Line, Polygon]
+14:47:21,099 DEBUG [main] Presenter - SMD: [SMD Capacitor, SMD Resistor]
+14:47:21,099 DEBUG [main] Presenter - Electro-Mechanical: [IEC Socket, Open 1/8" Jack, Pin Header, Cliff 1/8" Jack, DIP Switch, Mini Relay, 9V Battery Snap, Cliff 1/4" Jack, Pilot Lamp Holder, Polygonal Cutout, Closed 1/4" Jack, Plastic DC Jack, Neutrik 1/4" Jack, Tactile Micro-Switch, RCA Jack, Rotary Switch (Open), Rectangular Cutout, Rotary Switch (Sealed), Mini Toggle Switch, Open 1/4" Jack, Elliptical Cutout, Chassis Panel, Fuse Holder (Panel), Rotary Selector Switch, Slide Switch]
+14:47:21,099  INFO [main] VariantManager - Checking if variants need to be updated
+14:47:21,104  INFO [main] ConfigurationManager - Saving configuration
+14:47:21,214  INFO [main] ConfigurationManager - Saving configuration
+14:47:21,262  INFO [main] ConfigurationManager - Saving configuration
+14:47:21,301  INFO [main] VariantManager - Imported default 0 variants
+14:47:21,318  INFO [main] Presenter - installPlugin(ToolBox)
+14:47:22,146  INFO [main] MainFrame - injectGUIComponent(org.diylc.swing.plugins.toolbox.ComponentTabbedPane, 1, false, null)
+14:47:22,262  INFO [main] Presenter - installPlugin(FileMenuPlugin)
+14:47:22,266  INFO [main] MainFrame - injectMenuAction(New, File)
+14:47:22,297  INFO [main] MainFrame - injectMenuAction(Open, File)
+14:47:22,312  INFO [main] MainFrame - injectMenuAction(Import, File)
+14:47:22,323 DEBUG [main] Utils - Scanning jar: /home/jvanvalkenburgh/Downloads/diylc-4.37.0/lib/diylc-core.jar
+14:47:22,345 DEBUG [main] Utils - Scanning jar: /home/jvanvalkenburgh/Downloads/diylc-4.37.0/library/main.jar
+14:47:22,390  INFO [main] MainFrame - injectMenuAction(Import Netlist, File)
+14:47:22,393  INFO [main] MainFrame - injectMenuAction(Save, File)
+14:47:22,395  INFO [main] MainFrame - injectMenuAction(Save As, File)
+14:47:22,397  INFO [main] MainFrame - injectDynamicSubmenu(Recent Files, icon, File)
+14:47:22,399  INFO [main] MainFrame - injectMenuAction(Separator, File)
+14:47:22,408  INFO [main] MainFrame - injectMenuAction(Export to PDF, File)
+14:47:22,413  INFO [main] MainFrame - injectMenuAction(Export to PNG, File)
+14:47:22,416  INFO [main] MainFrame - injectMenuAction(Print..., File)
+14:47:22,420  INFO [main] MainFrame - injectSubmenu(Trace Mask, icon, File)
+14:47:22,421  INFO [main] MainFrame - injectMenuAction(Export to PDF, Trace Mask)
+14:47:22,422  INFO [main] MainFrame - injectMenuAction(Export to PNG, Trace Mask)
+14:47:22,423  INFO [main] MainFrame - injectMenuAction(Print..., Trace Mask)
+14:47:22,429  INFO [main] MainFrame - injectSubmenu(Analyze, icon, File)
+14:47:22,433  INFO [main] MainFrame - injectMenuAction(Check Trace Proximity, Analyze)
+14:47:22,437  INFO [main] MainFrame - injectMenuAction(Create B.O.M., Analyze)
+14:47:22,439  INFO [main] MainFrame - injectMenuAction(Generate DIYLC Netlist (excl. Switches), Analyze)
+14:47:22,441  INFO [main] MainFrame - injectMenuAction(Generate DIYLC Netlist (incl. Switches), Analyze)
+14:47:22,441 DEBUG [main] Utils - Scanning jar: /home/jvanvalkenburgh/Downloads/diylc-4.37.0/lib/diylc-core.jar
+14:47:22,461 DEBUG [main] Utils - Scanning jar: /home/jvanvalkenburgh/Downloads/diylc-4.37.0/library/main.jar
+14:47:22,504  INFO [main] MainFrame - injectMenuAction(Analyze Guitar Diagrams, Analyze)
+14:47:22,506  INFO [main] MainFrame - injectMenuAction(Generate Spice Netlist, Analyze)
+14:47:22,507  INFO [main] MainFrame - injectMenuAction(Separator, File)
+14:47:22,509  INFO [main] MainFrame - injectSubmenu(Integration, icon, File)
+14:47:22,510  INFO [main] MainFrame - injectMenuAction(Import Building Blocks, Integration)
+14:47:22,512  INFO [main] MainFrame - injectMenuAction(Export Building Blocks, Integration)
+14:47:22,513  INFO [main] MainFrame - injectMenuAction(Separator, Integration)
+14:47:22,514  INFO [main] MainFrame - injectMenuAction(Import Variants, Integration)
+14:47:22,518  INFO [main] MainFrame - injectMenuAction(Export Variants, Integration)
+14:47:22,525  INFO [main] MainFrame - injectMenuAction(Loadline Editor, File)
+14:47:22,525  INFO [main] MainFrame - injectMenuAction(Separator, File)
+14:47:22,531  INFO [main] MainFrame - injectMenuAction(Exit, File)
+14:47:22,560  INFO [main] Presenter - installPlugin(EditMenuPlugin)
+14:47:22,560  INFO [main] MainFrame - injectMenuAction(Undo, Edit)
+14:47:22,562  INFO [main] MainFrame - injectMenuAction(Redo, Edit)
+14:47:22,563  INFO [main] MainFrame - injectMenuAction(Separator, Edit)
+14:47:22,567  INFO [main] MainFrame - injectMenuAction(Cut, Edit)
+14:47:22,570  INFO [main] MainFrame - injectMenuAction(Copy, Edit)
+14:47:22,575  INFO [main] MainFrame - injectMenuAction(Paste, Edit)
+14:47:22,577  INFO [main] MainFrame - injectMenuAction(Duplicate, Edit)
+14:47:22,580  INFO [main] MainFrame - injectMenuAction(Separator, Edit)
+14:47:22,582  INFO [main] MainFrame - injectMenuAction(Find, Edit)
+14:47:22,585  INFO [main] MainFrame - injectMenuAction(Select All, Edit)
+14:47:22,587  INFO [main] MainFrame - injectMenuAction(Edit Selection, Edit)
+14:47:22,590  INFO [main] MainFrame - injectMenuAction(Delete Selection, Edit)
+14:47:22,591  INFO [main] MainFrame - injectSubmenu(Transform Selection, icon, Edit)
+14:47:22,593  INFO [main] MainFrame - injectMenuAction(Rotate Clockwise, Transform Selection)
+14:47:22,597  INFO [main] MainFrame - injectMenuAction(Rotate Counterclockwise, Transform Selection)
+14:47:22,599  INFO [main] MainFrame - injectMenuAction(Separator, Transform Selection)
+14:47:22,602  INFO [main] MainFrame - injectMenuAction(Mirror Horizontally, Transform Selection)
+14:47:22,603  INFO [main] MainFrame - injectMenuAction(Mirror Vertically, Transform Selection)
+14:47:22,604  INFO [main] MainFrame - injectMenuAction(Separator, Transform Selection)
+14:47:22,606  INFO [main] MainFrame - injectMenuAction(Nudge, Transform Selection)
+14:47:22,607  INFO [main] MainFrame - injectMenuAction(Separator, Transform Selection)
+14:47:22,609  INFO [main] MainFrame - injectMenuAction(Send Backward, Transform Selection)
+14:47:22,615  INFO [main] MainFrame - injectMenuAction(Bring Forward, Transform Selection)
+14:47:22,616  INFO [main] MainFrame - injectMenuAction(Separator, Transform Selection)
+14:47:22,617  INFO [main] MainFrame - injectMenuAction(Group Selection, Transform Selection)
+14:47:22,620  INFO [main] MainFrame - injectMenuAction(Ungroup Selection, Transform Selection)
+14:47:22,620  INFO [main] MainFrame - injectMenuAction(Separator, Edit)
+14:47:22,623  INFO [main] MainFrame - injectSubmenu(Renumber Selection, icon, Edit)
+14:47:22,624  INFO [main] MainFrame - injectMenuAction(Top-to-Bottom, Renumber Selection)
+14:47:22,625  INFO [main] MainFrame - injectMenuAction(Left-to-Right, Renumber Selection)
+14:47:22,626  INFO [main] MainFrame - injectSubmenu(Expand Selection, icon, Edit)
+14:47:22,629  INFO [main] MainFrame - injectMenuAction(All Connected, Expand Selection)
+14:47:22,630  INFO [main] MainFrame - injectMenuAction(Immediate Only, Expand Selection)
+14:47:22,631  INFO [main] MainFrame - injectMenuAction(Same Type Only, Expand Selection)
+14:47:22,631  INFO [main] MainFrame - injectMenuAction(Separator, Edit)
+14:47:22,633  INFO [main] MainFrame - injectMenuAction(Add Flexible Leads, Edit)
+14:47:22,634  INFO [main] MainFrame - injectMenuAction(Separator, Edit)
+14:47:22,636  INFO [main] MainFrame - injectMenuAction(Edit Project Settings, Edit)
+14:47:22,768  INFO [main] Presenter - installPlugin(ConfigPlugin)
+14:47:22,769  INFO [main] ActionFactory - Initializing antiAliasing to true
+14:47:22,769  INFO [main] MainFrame - injectMenuAction(Anti-Aliasing, Config)
+14:47:22,774  INFO [main] ActionFactory - Initializing autoCreatePads to false
+14:47:22,774  INFO [main] MainFrame - injectMenuAction(Auto-Create Pads, Config)
+14:47:22,775  INFO [main] ActionFactory - Initializing autoEdit to true
+14:47:22,775  INFO [main] MainFrame - injectMenuAction(Auto-Edit Mode, Config)
+14:47:22,775  INFO [main] ActionFactory - Initializing continuousCreation to false
+14:47:22,775  INFO [main] MainFrame - injectMenuAction(Continuous Creation, Config)
+14:47:22,776  INFO [main] ActionFactory - Initializing cachingEnabled to false
+14:47:22,776  INFO [main] MainFrame - injectMenuAction(Enable Cache Boost, Config)
+14:47:22,776  INFO [main] ActionFactory - Initializing exportGrid to false
+14:47:22,776  INFO [main] MainFrame - injectMenuAction(Export Grid, Config)
+14:47:22,777  INFO [main] ActionFactory - Initializing extraSpace to true
+14:47:22,778  INFO [main] MainFrame - injectMenuAction(Extra Working Area, Config)
+14:47:22,778  INFO [main] ActionFactory - Initializing hiQualityRender to true
+14:47:22,778  INFO [main] MainFrame - injectMenuAction(Hi-Quality Rendering, Config)
+14:47:22,779  INFO [main] ActionFactory - Initializing highlightContinuityArea to false
+14:47:22,779  INFO [main] MainFrame - injectMenuAction(Highlight Connected Areas, Config)
+14:47:22,780 DEBUG [main] ResourceLoader - Looking for files in: lang
+14:47:22,820  INFO [main] MainFrame - injectSubmenu(Language, icon, Config)
+14:47:22,825  INFO [main] MainFrame - injectMenuAction(Deutsch, Language)
+14:47:22,828  INFO [main] MainFrame - injectMenuAction(English, Language)
+14:47:22,831  INFO [main] MainFrame - injectMenuAction(Español, Language)
+14:47:22,834  INFO [main] MainFrame - injectMenuAction(Français, Language)
+14:47:22,838  INFO [main] MainFrame - injectMenuAction(Italiano, Language)
+14:47:22,843  INFO [main] MainFrame - injectMenuAction(Nederlands, Language)
+14:47:22,850  INFO [main] MainFrame - injectMenuAction(Português, Language)
+14:47:22,853  INFO [main] MainFrame - injectMenuAction(Srpski, Language)
+14:47:22,854  INFO [main] ActionFactory - Initializing wheelZoom to false
+14:47:22,854  INFO [main] MainFrame - injectMenuAction(Mouse Wheel Zoom, Config)
+14:47:22,855  INFO [main] ActionFactory - Initializing outline to false
+14:47:22,855  INFO [main] MainFrame - injectMenuAction(Outline Mode, Config)
+14:47:22,855  INFO [main] ActionFactory - Initializing renumberOnPaste to true
+14:47:22,857  INFO [main] MainFrame - injectMenuAction(Renumber On Paste, Config)
+14:47:22,862  INFO [main] MainFrame - injectSubmenu(Ruler Inch Subdivision..., icon, Config)
+14:47:22,863  INFO [main] MainFrame - injectMenuAction(base of 10, Ruler Inch Subdivision...)
+14:47:22,863  INFO [main] MainFrame - injectMenuAction(base of 2, Ruler Inch Subdivision...)
+14:47:22,864  INFO [main] ActionFactory - Initializing projectExplorer to true
+14:47:22,864  INFO [main] MainFrame - injectMenuAction(Show Project Explorer, Config)
+14:47:22,865  INFO [main] ActionFactory - Initializing showRulers to true
+14:47:22,865  INFO [main] MainFrame - injectMenuAction(Show Rulers, Config)
+14:47:22,868  INFO [main] MainFrame - injectSubmenu(Snap To, icon, Config)
+14:47:22,869  INFO [main] MainFrame - injectMenuAction(None, Snap To)
+14:47:22,870  INFO [main] MainFrame - injectMenuAction(Grid, Snap To)
+14:47:22,870  INFO [main] MainFrame - injectMenuAction(Components, Snap To)
+14:47:22,871  INFO [main] ActionFactory - Initializing showGrid to true
+14:47:22,871  INFO [main] MainFrame - injectMenuAction(Show Grid, Config)
+14:47:22,871  INFO [main] ActionFactory - Initializing stickyPoints to true
+14:47:22,871  INFO [main] MainFrame - injectMenuAction(Sticky Points, Config)
+14:47:22,872 DEBUG [main] ResourceLoader - Looking for files in: themes
+14:47:22,877  INFO [main] MainFrame - injectSubmenu(Theme, icon, Config)
+14:47:22,889 DEBUG [main] ConfigPlugin - Found theme: Blueprint
+14:47:22,891  INFO [main] MainFrame - injectMenuAction(Blueprint, Theme)
+14:47:22,895 DEBUG [main] ConfigPlugin - Found theme: Dark
+14:47:22,895  INFO [main] MainFrame - injectMenuAction(Dark, Theme)
+14:47:22,898 DEBUG [main] ConfigPlugin - Found theme: Gray
+14:47:22,898  INFO [main] MainFrame - injectMenuAction(Gray, Theme)
+14:47:22,900 DEBUG [main] ConfigPlugin - Found theme: Light
+14:47:22,900  INFO [main] MainFrame - injectMenuAction(Light, Theme)
+14:47:22,903  INFO [main] MainFrame - injectSubmenu(Toolbox, icon, Config)
+14:47:22,904  INFO [main] MainFrame - injectMenuAction(Searchable Tree, Toolbox)
+14:47:22,905  INFO [main] MainFrame - injectMenuAction(Tabbed Toolbar, Toolbox)
+14:47:22,908  INFO [main] MainFrame - injectSubmenu(Chassis, icon, Layers)
+14:47:22,910  INFO [main] MainFrame - injectMenuAction(Visible, Chassis)
+14:47:22,913  INFO [main] MainFrame - injectMenuAction(Lock, Chassis)
+14:47:22,914  INFO [main] MainFrame - injectMenuAction(Select All, Chassis)
+14:47:22,916  INFO [main] MainFrame - injectSubmenu(Board, icon, Layers)
+14:47:22,917  INFO [main] MainFrame - injectMenuAction(Visible, Board)
+14:47:22,918  INFO [main] MainFrame - injectMenuAction(Lock, Board)
+14:47:22,919  INFO [main] MainFrame - injectMenuAction(Select All, Board)
+14:47:22,920  INFO [main] MainFrame - injectSubmenu(Trace, icon, Layers)
+14:47:22,920  INFO [main] MainFrame - injectMenuAction(Visible, Trace)
+14:47:22,921  INFO [main] MainFrame - injectMenuAction(Lock, Trace)
+14:47:22,922  INFO [main] MainFrame - injectMenuAction(Select All, Trace)
+14:47:22,922  INFO [main] MainFrame - injectSubmenu(Component, icon, Layers)
+14:47:22,923  INFO [main] MainFrame - injectMenuAction(Visible, Component)
+14:47:22,923  INFO [main] MainFrame - injectMenuAction(Lock, Component)
+14:47:22,924  INFO [main] MainFrame - injectMenuAction(Select All, Component)
+14:47:22,925  INFO [main] MainFrame - injectSubmenu(Wiring, icon, Layers)
+14:47:22,925  INFO [main] MainFrame - injectMenuAction(Visible, Wiring)
+14:47:22,926  INFO [main] MainFrame - injectMenuAction(Lock, Wiring)
+14:47:22,927  INFO [main] MainFrame - injectMenuAction(Select All, Wiring)
+14:47:22,927  INFO [main] MainFrame - injectSubmenu(Text, icon, Layers)
+14:47:22,928  INFO [main] MainFrame - injectMenuAction(Visible, Text)
+14:47:22,928  INFO [main] MainFrame - injectMenuAction(Lock, Text)
+14:47:22,929  INFO [main] MainFrame - injectMenuAction(Select All, Text)
+14:47:22,930  INFO [main] Presenter - installPlugin(LayersMenuPlugin)
+14:47:22,936  INFO [main] MainFrame - injectMenuAction(Search The Cloud, Project Cloud)
+14:47:22,938  INFO [main] MainFrame - injectMenuAction(Separator, Project Cloud)
+14:47:22,939  INFO [main] MainFrame - injectMenuAction(Log In, Project Cloud)
+14:47:22,940  INFO [main] MainFrame - injectMenuAction(Create New Account, Project Cloud)
+14:47:22,941  INFO [main] MainFrame - injectMenuAction(Separator, Project Cloud)
+14:47:22,942  INFO [main] MainFrame - injectMenuAction(Upload A Project, Project Cloud)
+14:47:22,944  INFO [main] MainFrame - injectMenuAction(Manage My Uploads, Project Cloud)
+14:47:22,946  INFO [main] MainFrame - injectMenuAction(Separator, Project Cloud)
+14:47:22,948  INFO [main] MainFrame - injectMenuAction(Manage Account, Project Cloud)
+14:47:22,950  INFO [main] MainFrame - injectMenuAction(Change Password, Project Cloud)
+14:47:22,951  INFO [main] MainFrame - injectMenuAction(Log Out, Project Cloud)
+14:47:22,952  INFO [main] Presenter - installPlugin(CloudPlugIn)
+14:47:22,960  INFO [main] MainFrame - injectMenuAction(User Manual, Help)
+14:47:22,963  INFO [main] MainFrame - injectMenuAction(FAQ, Help)
+14:47:22,966  INFO [main] MainFrame - injectMenuAction(Component API, Help)
+14:47:22,967  INFO [main] MainFrame - injectMenuAction(Plugin API, Help)
+14:47:22,968  INFO [main] MainFrame - injectMenuAction(Submit a Bug, Help)
+14:47:22,970  INFO [main] MainFrame - injectMenuAction(Access User Files, Help)
+14:47:22,970  INFO [main] MainFrame - injectMenuAction(Separator, Help)
+14:47:22,973  INFO [main] MainFrame - injectMenuAction(Recent Updates, Help)
+14:47:22,973  INFO [main] MainFrame - injectMenuAction(Separator, Help)
+14:47:22,974  INFO [main] MainFrame - injectMenuAction(Make a Donation, Help)
+14:47:22,977  INFO [main] MainFrame - injectMenuAction(About, Help)
+14:47:22,978  INFO [main] Presenter - installPlugin(HelpMenuPlugin)
+14:47:22,985  INFO [main] Presenter - installPlugin(ActionBarPlugin)
+14:47:23,029  INFO [main] ProxyFactory - Creating temp class code
+14:47:23,302  INFO [main] ProxyFactory - Successfully instantiated proxy
+14:47:23,302  INFO [main] MainFrame - injectGUIComponent(org.diylc.swing.plugins.statusbar.StatusBar, 3, false, null)
+14:47:23,324  INFO [main] Presenter - installPlugin(StatusBar)
+14:47:23,399  INFO [SwingWorker-pool-1-thread-3] UpdateChecker - Trying to download file: http://diy-fever.com/diylc/api/v1/update.xml
+14:47:23,422  INFO [main] Presenter - installPlugin(CanvasPlugin)
+14:47:23,462  INFO [main] CanvasPlugin - Magnification gesture listener initialized.
+14:47:23,472  INFO [main] MainFrame - injectGUIComponent(org.diylc.swingframework.ruler.RulerScrollPane, 0, false, null)
+14:47:23,498  INFO [main] Presenter - installPlugin(ComponentTree)
+14:47:23,726  INFO [main] MainFrame - injectGUIComponent(org.diylc.swing.plugins.tree.TreePanel, 2, true, null)
+14:47:23,807  INFO [main] Presenter - installPlugin(ExplorerPlugin)
+14:47:23,845  INFO [main] MainFrame - injectGUIComponent(org.diylc.swing.plugins.explorer.ExplorerPane, 4, true, projectExplorer)
+14:47:23,856  INFO [main] Presenter - installPlugin(FramePlugin)
+14:47:23,860  INFO [main] Presenter - installPlugin(AutoSavePlugin)
+14:47:23,860  INFO [main] Presenter - createNewFile()
+14:47:23,861  INFO [main] Presenter - loadProject(New Project, true)
+14:47:23,939  INFO [main] UndoHandler - Resetting undo/redo
+14:47:23,945  INFO [main] DIYLCStarter - Main frame created.
+14:47:23,945  INFO [main] DIYLCStarter - Hiding splash screen...
+14:47:23,981  INFO [main] DIYLCStarter - Done hiding splash screen.
+14:47:23,988  INFO [main] DIYLCStarter - Injecting default properties.
+14:47:24,324 DEBUG [SwingWorker-pool-1-thread-2] PhpFlatProxy - Connecting to: http://www.diy-fever.com/diylc/api/v1/getAnnouncements.php
+14:47:24,789  INFO [SwingWorker-pool-1-thread-3] UpdateChecker - 0 updates found
+14:47:25,564 ERROR [AWT-EventQueue-0] MainFrame - Background task execution failed
+java.util.concurrent.ExecutionException: java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class org.diylc.announcements.Announcement (java.util.ArrayList is in module java.base of loader 'bootstrap'; org.diylc.announcements.Announcement is in unnamed module of loader 'app')
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613)
+	at org.diylc.swing.gui.MainFrame$6.done(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:848)
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:858)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:311)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:243)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class org.diylc.announcements.Announcement (java.util.ArrayList is in module java.base of loader 'bootstrap'; org.diylc.announcements.Announcement is in unnamed module of loader 'app')
+	at org.diylc.announcements.AnnouncementProvider.getCurrentAnnouncements(Unknown Source)
+	at org.diylc.swing.plugins.statusbar.StatusBar$1.doInBackground(Unknown Source)
+	at org.diylc.swing.plugins.statusbar.StatusBar$1.doInBackground(Unknown Source)
+	at org.diylc.swing.gui.MainFrame$6.doInBackground(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+14:47:25,569 ERROR [AWT-EventQueue-0] StatusBar - Error while fetching announcements
+java.util.concurrent.ExecutionException: java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class org.diylc.announcements.Announcement (java.util.ArrayList is in module java.base of loader 'bootstrap'; org.diylc.announcements.Announcement is in unnamed module of loader 'app')
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at java.desktop/javax.swing.SwingWorker.get(SwingWorker.java:613)
+	at org.diylc.swing.gui.MainFrame$6.done(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$5.run(SwingWorker.java:750)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(SwingWorker.java:848)
+	at java.desktop/sun.swing.AccumulativeRunnable.run(AccumulativeRunnable.java:112)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(SwingWorker.java:858)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:311)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:243)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class org.diylc.announcements.Announcement (java.util.ArrayList is in module java.base of loader 'bootstrap'; org.diylc.announcements.Announcement is in unnamed module of loader 'app')
+	at org.diylc.announcements.AnnouncementProvider.getCurrentAnnouncements(Unknown Source)
+	at org.diylc.swing.plugins.statusbar.StatusBar$1.doInBackground(Unknown Source)
+	at org.diylc.swing.plugins.statusbar.StatusBar$1.doInBackground(Unknown Source)
+	at org.diylc.swing.gui.MainFrame$6.doInBackground(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$1.call(SwingWorker.java:304)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.desktop/javax.swing.SwingWorker.run(SwingWorker.java:343)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+14:47:31,937  INFO [AWT-EventQueue-0] FileMenuPlugin - Openning recent file: /home/jvanvalkenburgh/git/vibraphone-controller/cad/Power_Proto_PCB.diy
+14:47:31,955 DEBUG [SwingWorker-pool-1-thread-4] FileMenuPlugin - Opening recent file from /home/jvanvalkenburgh/git/vibraphone-controller/cad/Power_Proto_PCB.diy
+14:47:31,956  INFO [SwingWorker-pool-1-thread-4] Presenter - loadProjectFromFile(/home/jvanvalkenburgh/git/vibraphone-controller/cad/Power_Proto_PCB.diy)
+14:47:31,956  INFO [SwingWorker-pool-1-thread-4] ProjectFileManager - loadProjectFromFile(/home/jvanvalkenburgh/git/vibraphone-controller/cad/Power_Proto_PCB.diy)
+14:47:32,068  INFO [SwingWorker-pool-1-thread-4] Presenter - loadProject(New Project, true)
+14:47:32,097  INFO [SwingWorker-pool-1-thread-4] UndoHandler - Resetting undo/redo
+14:47:32,098  INFO [SwingWorker-pool-1-thread-4] AutoSavePlugin - Copied loaded file to /home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T14-47-32.diy
+14:47:32,148  INFO [SwingWorker-pool-1-thread-4] ConfigurationManager - Saving configuration
+14:48:18,371 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1603,y=926], 1, false, false, false)
+14:48:29,591 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1666,y=1114], 1, false, false, false)
+14:48:29,825 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=5x 517ms; boards.Breadboard=5x 225ms; passive.RadialElectrolytic=40x 103ms; passive.Resistor=30x 59ms; passive.RadialInductor=20x 39ms; connectivity.HookupWire=70x 32ms; passive.RadialCeramicDiskCapacitor=20x 29ms; electromechanical.PlasticDCJack=10x 19ms; semiconductors.DiodePlastic=10x 17ms; connectivity.CopperTrace=80x 15ms; semiconductors.DIL_IC=10x 12ms; electromechanical.PinHeader=10x 3ms}
+14:48:29,825 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 8x 206ms avg
+14:48:29,830 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:48:29,831 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:48:29,831 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:48:54,440 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1668,y=1119], 1, false, false, false)
+14:48:56,528 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1696,y=1119], 2)
+14:48:57,385 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1717,y=1123])
+14:48:57,438  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:48:57,440  INFO [pool-2-thread-1] Presenter - saveProjectToFile(/home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T14-48-57.diy)
+14:48:57,444 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:48:58,016 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1647,y=1295], 1, false, false, false)
+14:49:00,785 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1668,y=1119], 1, false, false, false)
+14:49:01,689 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1668,y=1119], 2)
+14:49:03,193 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1668,y=1177])
+14:49:03,270  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:49:03,274 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:49:04,320 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1593,y=1115], 1, false, false, false)
+14:49:05,320 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1593,y=1115], 1, false, false, false)
+14:49:06,488 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1599,y=1121], 1, false, false, false)
+14:49:07,312 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1593,y=1113], 1, false, false, false)
+14:49:08,112 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1593,y=1113], 2)
+14:49:09,900 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1599,y=1163])
+14:49:09,907  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:49:10,375 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:49:10,752 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1579,y=1094], 1, false, false, false)
+14:49:12,720 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1575,y=1102], 2)
+14:49:13,844 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1578,y=1156])
+14:49:13,855  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:49:14,148 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:49:18,271  INFO [AWT-EventQueue-0] UndoHandler - Performing undo
+14:49:18,271  INFO [AWT-EventQueue-0] Presenter - loadProject(New Project, false)
+14:49:19,431  INFO [AWT-EventQueue-0] UndoHandler - Performing undo
+14:49:19,431  INFO [AWT-EventQueue-0] Presenter - loadProject(New Project, false)
+14:49:22,168 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1575,y=1103], 1, false, false, false)
+14:49:23,408 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1600,y=1112], 1, false, false, false)
+14:49:25,136 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1596,y=1124], 2)
+14:49:28,665 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1599,y=1174])
+14:49:28,673  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:49:28,675 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:49:29,560 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1615,y=1098], 1, false, false, false)
+14:49:30,760 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1617,y=1089], 1, false, false, false)
+14:49:30,852 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=40x 2054ms; boards.Breadboard=40x 792ms; passive.RadialElectrolytic=320x 308ms; passive.Resistor=240x 208ms; passive.RadialInductor=160x 138ms; connectivity.HookupWire=560x 120ms; passive.RadialCeramicDiskCapacitor=160x 111ms; electromechanical.PlasticDCJack=80x 76ms; connectivity.CopperTrace=640x 52ms; semiconductors.DiodePlastic=80x 48ms; semiconductors.DIL_IC=80x 39ms; electromechanical.PinHeader=80x 14ms}
+14:49:30,852 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 43x 141ms avg
+14:49:30,852 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:49:30,852 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:49:30,852 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:49:32,392 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1621,y=1041], 1, false, false, false)
+14:49:33,928 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1616,y=1106], 2)
+14:49:34,921 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1616,y=1146])
+14:49:34,931  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:49:34,934 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:49:35,439  INFO [AWT-EventQueue-0] UndoHandler - Performing undo
+14:49:35,439  INFO [AWT-EventQueue-0] Presenter - loadProject(New Project, false)
+14:49:36,528 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1621,y=1030], 1, false, false, false)
+14:49:39,232 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1620,y=1099], 2)
+14:49:41,090 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1616,y=1156])
+14:49:41,105  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:49:41,369 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:49:42,256 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1575,y=1100], 1, false, false, false)
+14:49:43,704 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1578,y=1095], 1, false, false, false)
+14:49:45,840 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1577,y=1102], 2)
+14:49:47,977 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1577,y=1152])
+14:49:48,024  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:49:48,026 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:49:48,672 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1584,y=1291], 1, false, false, false)
+14:49:57,480 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1974,y=1288], 1, false, false, false)
+14:50:05,265 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1606,y=930], 1, false, false, false)
+14:50:07,801 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1602,y=937], 1, false, false, false)
+14:50:08,001 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1602,y=937], 1, false, false, false)
+14:50:08,014 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Alpha = 127, Border = java.awt.Color[r=91,g=144,b=177], Color = java.awt.Color[r=130,g=207,b=253], Color code = 5 band, Display = Name, Font Size Override = null, Label Color = java.awt.Color[r=0,g=0,b=0], Label Orientation = Directional, Lead Color = java.awt.Color[r=204,g=204,b=204], Moveable Label = false, Name = R5, Power Rating = null, Reverse (standing) = false, Shape = Standard, Value = null, Length = 0.5in, Width = 0.125in]
+14:50:37,162 DEBUG [AWT-EventQueue-0] Presenter - applyPropertiesToSelection([Alpha = 127, Border = java.awt.Color[r=91,g=144,b=177], Color = java.awt.Color[r=130,g=207,b=253], Color code = 5 band, Display = Name, Font Size Override = null, Label Color = java.awt.Color[r=0,g=0,b=0], Label Orientation = Directional, Lead Color = java.awt.Color[r=204,g=204,b=204], Moveable Label = false, Name = PR2_A, Power Rating = null, Reverse (standing) = false, Shape = Standard, Value = 3.3null, Length = 0.5in, Width = 0.125in])
+14:50:37,166  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:50:37,168  INFO [pool-2-thread-1] Presenter - saveProjectToFile(/home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T14-50-37.diy)
+14:50:37,364 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=64x 2759ms; boards.Breadboard=64x 1047ms; passive.RadialElectrolytic=512x 397ms; passive.Resistor=384x 274ms; passive.RadialInductor=256x 179ms; connectivity.HookupWire=896x 157ms; passive.RadialCeramicDiskCapacitor=256x 149ms; electromechanical.PlasticDCJack=128x 103ms; connectivity.CopperTrace=1024x 69ms; semiconductors.DiodePlastic=128x 63ms; semiconductors.DIL_IC=128x 52ms; electromechanical.PinHeader=128x 19ms}
+14:50:37,364 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 67x 123ms avg
+14:50:37,364 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:50:37,364 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:50:37,364 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:50:48,961 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1601,y=923], 1, false, false, false)
+14:50:50,209 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1598,y=931], 1, false, false, false)
+14:50:52,145 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1594,y=922], 3, false, false, false)
+14:50:54,266  INFO [AWT-EventQueue-0] ActionFactory - Duplicate triggered
+14:50:54,266  INFO [AWT-EventQueue-0] Presenter - duplicateSelection()
+14:50:54,285  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:50:57,946 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1625,y=940], 2)
+14:50:58,923 DEBUG [AWT-EventQueue-0] Presenter - Area is null for R5 of type org.diylc.components.passive.Resistor
+14:50:58,923 DEBUG [AWT-EventQueue-0] Presenter - Area is null for R5 of type org.diylc.components.passive.Resistor
+14:50:58,923 DEBUG [AWT-EventQueue-0] Presenter - Area is null for R5 of type org.diylc.components.passive.Resistor
+14:50:59,468 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1927,y=908])
+14:50:59,531  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:50:59,533 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:51:04,986 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1575,y=1084], 1, false, false, false)
+14:51:06,754 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1578,y=1000], 2)
+14:51:08,523 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1573,y=1052])
+14:51:08,599  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:51:08,600 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:51:10,058 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1630,y=1055], 1, false, false, false)
+14:51:15,336  INFO [AWT-EventQueue-0] UndoHandler - Performing undo
+14:51:15,336  INFO [AWT-EventQueue-0] Presenter - loadProject(New Project, false)
+14:51:22,882 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1576,y=1016], 1, false, false, false)
+14:51:24,834 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1598,y=986], 1, false, false, false)
+14:51:26,354 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1543,y=1013], 1, false, false, false)
+14:51:29,362 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1561,y=1002], 2)
+14:51:29,750 DEBUG [AWT-EventQueue-0] Presenter - Area is null for W12 of type org.diylc.components.connectivity.HookupWire
+14:51:30,755 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1558,y=1068])
+14:51:30,813  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:51:30,816 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:51:31,618 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1575,y=1064], 1, false, false, false)
+14:51:33,770 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1579,y=1000], 2)
+14:51:35,299 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1578,y=1052])
+14:51:35,325  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:51:35,564 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:51:43,645  INFO [AWT-EventQueue-0] UndoHandler - Performing undo
+14:51:43,645  INFO [AWT-EventQueue-0] Presenter - loadProject(New Project, false)
+14:51:43,847 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=99x 3812ms; boards.Breadboard=99x 1408ms; passive.RadialElectrolytic=792x 528ms; passive.Resistor=626x 390ms; passive.RadialInductor=396x 244ms; connectivity.HookupWire=1386x 225ms; passive.RadialCeramicDiskCapacitor=396x 205ms; electromechanical.PlasticDCJack=198x 147ms; connectivity.CopperTrace=1584x 91ms; semiconductors.DiodePlastic=198x 86ms; semiconductors.DIL_IC=198x 75ms; electromechanical.PinHeader=198x 27ms}
+14:51:43,847 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 102x 113ms avg
+14:51:43,847 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:51:43,847 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:51:43,847 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:51:45,943  INFO [AWT-EventQueue-0] UndoHandler - Performing redo
+14:51:45,944  INFO [AWT-EventQueue-0] Presenter - loadProject(New Project, false)
+14:51:49,138 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1592,y=959], 1, false, false, false)
+14:51:59,002 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1601,y=1001], 2)
+14:52:00,022 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1599,y=985])
+14:52:00,111  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:52:00,111  INFO [pool-2-thread-1] Presenter - saveProjectToFile(/home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T14-52-00.diy)
+14:52:00,116 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:52:07,090 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1572,y=905], 1, false, false, false)
+14:52:11,536 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1574,y=959], 2)
+14:52:12,782 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1578,y=1009])
+14:52:12,812  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:52:12,814 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:52:17,594  INFO [AWT-EventQueue-0] UndoHandler - Performing undo
+14:52:17,594  INFO [AWT-EventQueue-0] Presenter - loadProject(New Project, false)
+14:52:21,203 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1618,y=1002], 1, false, false, false)
+14:52:23,227 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1619,y=959], 2)
+14:52:27,707 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1619,y=1036])
+14:52:27,773  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:52:27,774 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:52:29,435 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1677,y=958], 1, false, false, false)
+14:52:30,283 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1677,y=958], 2)
+14:52:31,532 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1676,y=1034])
+14:52:31,579  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:52:31,582 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:52:33,035 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1578,y=931], 1, false, false, false)
+14:52:34,451 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1576,y=963], 2)
+14:52:39,276 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1579,y=1037])
+14:52:39,285  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:52:39,287 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:52:41,307 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1603,y=906], 1, false, false, false)
+14:52:43,843 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1598,y=978], 2)
+14:52:43,922 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=135x 4895ms; boards.Breadboard=135x 1820ms; passive.RadialElectrolytic=1080x 669ms; passive.Resistor=878x 517ms; passive.RadialInductor=540x 310ms; connectivity.HookupWire=1890x 301ms; passive.RadialCeramicDiskCapacitor=540x 268ms; electromechanical.PlasticDCJack=270x 193ms; connectivity.CopperTrace=2160x 115ms; semiconductors.DiodePlastic=270x 109ms; semiconductors.DIL_IC=270x 95ms; electromechanical.PinHeader=270x 36ms}
+14:52:43,922 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 138x 108ms avg
+14:52:43,922 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:52:43,922 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:52:43,922 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:52:48,172 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1635,y=937])
+14:52:48,197  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:52:48,199 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:52:49,395 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1924,y=905], 1, false, false, false)
+14:52:50,155 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1924,y=905], 2)
+14:52:52,956 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1602,y=1022])
+14:52:52,984  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:52:52,986 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:52:54,627 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1600,y=1098], 2)
+14:53:02,358 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1599,y=1053])
+14:53:02,459  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:53:02,459  INFO [pool-2-thread-1] Presenter - saveProjectToFile(/home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T14-53-02.diy)
+14:53:02,465 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:53:03,883 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1600,y=935], 1, false, false, false)
+14:53:05,123 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1598,y=946], 2)
+14:53:05,924 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1614,y=946])
+14:53:05,971  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:53:06,161 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:53:07,723 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1622,y=992], 2)
+14:53:08,372 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1605,y=989])
+14:53:08,410  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:53:08,412 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:53:23,444 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1615,y=883], 1, false, false, false)
+14:53:25,452 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1636,y=946], 2)
+14:53:26,468 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1596,y=946])
+14:53:26,485  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:53:26,487 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:53:27,626  INFO [AWT-EventQueue-0] UndoHandler - Performing undo
+14:53:27,626  INFO [AWT-EventQueue-0] Presenter - loadProject(New Project, false)
+14:53:28,556 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1924,y=992], 2)
+14:53:29,300 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:53:30,484 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1627,y=917], 1, false, false, false)
+14:53:32,940 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1587,y=986], 1, false, false, false)
+14:53:34,356 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1837,y=979], 1, false, false, false)
+14:53:36,524 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1631,y=882], 1, false, false, false)
+14:53:38,756 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1625,y=904], 1, false, false, false)
+14:53:40,820 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1600,y=836], 2)
+14:53:41,629 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1615,y=839])
+14:53:41,663  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:53:41,834 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:53:43,356 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1641,y=945], 2)
+14:53:44,093 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1623,y=947])
+14:53:44,112  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:53:44,196 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=186x 6561ms; boards.Breadboard=186x 2395ms; passive.RadialElectrolytic=1488x 860ms; passive.Resistor=1235x 704ms; connectivity.HookupWire=2604x 404ms; passive.RadialInductor=744x 397ms; passive.RadialCeramicDiskCapacitor=744x 347ms; electromechanical.PlasticDCJack=372x 257ms; connectivity.CopperTrace=2976x 151ms; semiconductors.DiodePlastic=372x 139ms; semiconductors.DIL_IC=372x 124ms; electromechanical.PinHeader=372x 45ms}
+14:53:44,196 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 189x 105ms avg
+14:53:44,196 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:53:44,196 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:53:44,196 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:53:44,286 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:53:44,748 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2004,y=959], 1, false, false, false)
+14:53:48,172 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1638,y=941], 1, false, false, false)
+14:53:49,612 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1660,y=942], 1, false, false, false)
+14:53:50,388 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1655,y=941], 3, false, false, false)
+14:53:52,613  INFO [AWT-EventQueue-0] ActionFactory - Edit Selection triggered
+14:53:52,614 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Name = BB1, Orientation = Default, Power Strip = Inline, Size = Half]
+14:54:14,532 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1600,y=1026], 1, false, false, false)
+14:54:14,736 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1600,y=1026], 1, false, false, false)
+14:54:14,739 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Alpha = 127, Border = java.awt.Color[r=91,g=144,b=177], Color = java.awt.Color[r=130,g=207,b=253], Color code = 5 band, Display = Name, Font Size Override = null, Label Color = java.awt.Color[r=0,g=0,b=0], Label Orientation = Directional, Lead Color = java.awt.Color[r=204,g=204,b=204], Moveable Label = false, Name = R5, Power Rating = null, Reverse (standing) = false, Shape = Standard, Value = 3.3null, Length = 0.5in, Width = 0.125in]
+14:54:21,005 DEBUG [AWT-EventQueue-0] Presenter - applyPropertiesToSelection([Alpha = 127, Border = java.awt.Color[r=91,g=144,b=177], Color = java.awt.Color[r=130,g=207,b=253], Color code = 5 band, Display = Name, Font Size Override = null, Label Color = java.awt.Color[r=0,g=0,b=0], Label Orientation = Directional, Lead Color = java.awt.Color[r=204,g=204,b=204], Moveable Label = false, Name = PR2_B, Power Rating = null, Reverse (standing) = false, Shape = Standard, Value = 3.3null, Length = 0.5in, Width = 0.125in])
+14:54:21,013  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:54:21,013  INFO [pool-2-thread-1] Presenter - saveProjectToFile(/home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T14-54-21.diy)
+14:54:23,308 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1949,y=1206], 1, false, false, false)
+14:54:25,076 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1582,y=917], 1, false, false, false)
+14:54:25,268 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1582,y=917], 1, false, false, false)
+14:54:25,271 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Alpha = 127, Border = java.awt.Color[r=91,g=144,b=177], Color = java.awt.Color[r=130,g=207,b=253], Color code = 5 band, Display = Name, Font Size Override = null, Label Color = java.awt.Color[r=0,g=0,b=0], Label Orientation = Directional, Lead Color = java.awt.Color[r=204,g=204,b=204], Moveable Label = false, Name = R3, Power Rating = null, Reverse (standing) = false, Shape = Standard, Value = null, Length = 0.5in, Width = 0.125in]
+14:54:30,454 DEBUG [AWT-EventQueue-0] Presenter - applyPropertiesToSelection([Alpha = 127, Border = java.awt.Color[r=91,g=144,b=177], Color = java.awt.Color[r=130,g=207,b=253], Color code = 5 band, Display = Name, Font Size Override = null, Label Color = java.awt.Color[r=0,g=0,b=0], Label Orientation = Directional, Lead Color = java.awt.Color[r=204,g=204,b=204], Moveable Label = false, Name = PR1, Power Rating = null, Reverse (standing) = false, Shape = Standard, Value = null, Length = 0.5in, Width = 0.125in])
+14:54:30,458  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:54:32,613 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1920,y=990], 1, false, false, false)
+14:54:36,397 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1574,y=718], 1, false, false, false)
+14:54:36,581 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1574,y=718], 1, false, false, false)
+14:54:36,582 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Alpha = 127, Border = java.awt.Color[r=91,g=144,b=177], Color = java.awt.Color[r=130,g=207,b=253], Color code = 5 band, Display = Name, Font Size Override = null, Label Color = java.awt.Color[r=0,g=0,b=0], Label Orientation = Directional, Lead Color = java.awt.Color[r=204,g=204,b=204], Moveable Label = false, Name = R4, Power Rating = null, Reverse (standing) = false, Shape = Standard, Value = null, Length = 0.5in, Width = 0.125in]
+14:54:47,091 DEBUG [AWT-EventQueue-0] Presenter - applyPropertiesToSelection([Alpha = 127, Border = java.awt.Color[r=91,g=144,b=177], Color = java.awt.Color[r=130,g=207,b=253], Color code = 5 band, Display = Name, Font Size Override = null, Label Color = java.awt.Color[r=0,g=0,b=0], Label Orientation = Directional, Lead Color = java.awt.Color[r=204,g=204,b=204], Moveable Label = false, Name = PRSC1, Power Rating = null, Reverse (standing) = false, Shape = Standard, Value = null, Length = 0.5in, Width = 0.125in])
+14:54:47,094  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:54:47,224 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=199x 6949ms; boards.Breadboard=199x 2528ms; passive.RadialElectrolytic=1592x 900ms; passive.Resistor=1326x 740ms; connectivity.HookupWire=2786x 420ms; passive.RadialInductor=796x 416ms; passive.RadialCeramicDiskCapacitor=796x 364ms; electromechanical.PlasticDCJack=398x 268ms; connectivity.CopperTrace=3184x 159ms; semiconductors.DiodePlastic=398x 146ms; semiconductors.DIL_IC=398x 129ms; electromechanical.PinHeader=398x 47ms}
+14:54:47,224 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 202x 104ms avg
+14:54:47,224 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:54:47,224 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:54:47,224 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:54:49,525 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1614,y=1418], 1, false, false, false)
+14:54:53,982  INFO [AWT-EventQueue-0] ActionFactory - SaveAction triggered
+14:54:53,982 DEBUG [SwingWorker-pool-1-thread-5] ActionFactory - Saving to /home/jvanvalkenburgh/git/vibraphone-controller/cad/Power_Proto_PCB.diy
+14:54:53,982  INFO [SwingWorker-pool-1-thread-5] Presenter - saveProjectToFile(/home/jvanvalkenburgh/git/vibraphone-controller/cad/Power_Proto_PCB.diy)
+14:54:53,982  INFO [SwingWorker-pool-1-thread-5] ProjectFileManager - serializeProjectToFile(/home/jvanvalkenburgh/git/vibraphone-controller/cad/Power_Proto_PCB.diy)
+14:54:53,996  INFO [SwingWorker-pool-1-thread-5] ConfigurationManager - Saving configuration
+14:54:57,557 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1868,y=1331], 2)
+14:54:59,903 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1704,y=1273])
+14:54:59,910 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:55:04,273 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1373,y=1354], 1, false, false, false)
+14:55:04,773 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1876,y=1344], 2)
+14:55:07,006 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1272,y=543])
+14:55:07,174 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:55:08,021 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2257,y=1789], 1, false, false, false)
+14:55:08,829 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2454,y=1907], 3, false, false, false)
+14:55:08,878  INFO [AWT-EventQueue-0] ComponentPopupMenu - Could not load variants for selection
+14:55:11,893 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2864,y=2227], 1, false, false, false)
+14:55:12,909 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=2865,y=2231], 2)
+14:55:13,452 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=2826,y=2203])
+14:55:13,634 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:55:40,831 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2559,y=934], 1, false, false, false)
+14:55:41,950 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2865,y=2096], 1, false, false, false)
+14:55:42,166 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2864,y=2096], 1, false, false, false)
+14:55:42,334 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2864,y=2096], 1, false, false, false)
+14:55:42,718 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2758,y=2065], 1, false, false, false)
+14:55:42,936 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2758,y=2065], 1, false, false, false)
+14:55:43,231 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2757,y=2065], 3, false, false, false)
+14:55:43,258  INFO [AWT-EventQueue-0] ComponentPopupMenu - Could not load variants for selection
+14:55:46,158 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=3064,y=1153], 3, false, false, false)
+14:55:46,236  INFO [AWT-EventQueue-0] ComponentPopupMenu - Could not load variants for selection
+14:55:47,541 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=265x 9136ms; boards.Breadboard=265x 3257ms; passive.RadialElectrolytic=2120x 1115ms; passive.Resistor=1788x 915ms; passive.RadialInductor=1060x 512ms; connectivity.HookupWire=3710x 508ms; passive.RadialCeramicDiskCapacitor=1060x 448ms; electromechanical.PlasticDCJack=530x 328ms; connectivity.CopperTrace=4240x 200ms; semiconductors.DiodePlastic=530x 181ms; semiconductors.DIL_IC=530x 155ms; electromechanical.PinHeader=530x 57ms}
+14:55:47,542 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 268x 102ms avg
+14:55:47,542 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:55:47,542 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:55:47,542 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:55:47,814 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2621,y=1166], 3, false, false, false)
+14:55:47,851  INFO [AWT-EventQueue-0] ComponentPopupMenu - Could not load variants for selection
+14:55:52,039  INFO [AWT-EventQueue-0] ActionFactory - Edit Project triggered
+14:55:52,070 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Title = New Project, Description = null, Author = jvanvalkenburgh, Width = 29cm, Height = 21cm, Grid Spacing = 0.1in, Default Font = java.awt.Font[family=Dialog,name=Dialog.plain,style=plain,size=14], Default Font Size = 14, Dot Spacing = 1]
+14:56:10,800 DEBUG [AWT-EventQueue-0] Presenter - applyProperties(New Project, [Title = New Project, Description = null, Author = jvanvalkenburgh, Width = 10cm, Height = 5cm, Grid Spacing = 0.1in, Default Font = java.awt.Font[family=Dialog,name=Dialog.plain,style=plain,size=14], Default Font Size = 14, Dot Spacing = 1])
+14:56:10,803  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:56:10,804  INFO [pool-2-thread-1] Presenter - saveProjectToFile(/home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T14-56-10.diy)
+14:56:13,694 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=87,y=338], 3, false, false, false)
+14:56:13,734  INFO [AWT-EventQueue-0] ComponentPopupMenu - Could not load variants for selection
+14:56:16,735  INFO [AWT-EventQueue-0] ActionFactory - Edit Project triggered
+14:56:16,736 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Title = New Project, Description = null, Author = jvanvalkenburgh, Width = 10cm, Height = 5cm, Grid Spacing = 0.1in, Default Font = java.awt.Font[family=Dialog,name=Dialog.plain,style=plain,size=14], Default Font Size = 14, Dot Spacing = 1]
+14:56:22,744 DEBUG [AWT-EventQueue-0] Presenter - applyProperties(New Project, [Title = New Project, Description = null, Author = jvanvalkenburgh, Width = 15cm, Height = 5cm, Grid Spacing = 0.1in, Default Font = java.awt.Font[family=Dialog,name=Dialog.plain,style=plain,size=14], Default Font Size = 14, Dot Spacing = 1])
+14:56:22,751  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:56:24,142 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1554,y=150], 3, false, false, false)
+14:56:24,166  INFO [AWT-EventQueue-0] ComponentPopupMenu - Could not load variants for selection
+14:56:26,990 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=749,y=87], 3, false, false, false)
+14:56:27,026  INFO [AWT-EventQueue-0] ComponentPopupMenu - Could not load variants for selection
+14:56:29,551  INFO [AWT-EventQueue-0] ActionFactory - Edit Project triggered
+14:56:29,552 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Title = New Project, Description = null, Author = jvanvalkenburgh, Width = 15cm, Height = 5cm, Grid Spacing = 0.1in, Default Font = java.awt.Font[family=Dialog,name=Dialog.plain,style=plain,size=14], Default Font Size = 14, Dot Spacing = 1]
+14:56:36,306 DEBUG [AWT-EventQueue-0] Presenter - applyProperties(New Project, [Title = New Project, Description = null, Author = jvanvalkenburgh, Width = 15cm, Height = 8cm, Grid Spacing = 0.1in, Default Font = java.awt.Font[family=Dialog,name=Dialog.plain,style=plain,size=14], Default Font Size = 14, Dot Spacing = 1])
+14:56:36,310  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:56:38,710 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=878,y=888], 3, false, false, false)
+14:56:38,728  INFO [AWT-EventQueue-0] ComponentPopupMenu - Could not load variants for selection
+14:56:41,751  INFO [AWT-EventQueue-0] ActionFactory - Edit Project triggered
+14:56:41,752 DEBUG [AWT-EventQueue-0] PropertyEditorDialog - Creating property editor for: [Title = New Project, Description = null, Author = jvanvalkenburgh, Width = 15cm, Height = 8cm, Grid Spacing = 0.1in, Default Font = java.awt.Font[family=Dialog,name=Dialog.plain,style=plain,size=14], Default Font Size = 14, Dot Spacing = 1]
+14:56:47,560 DEBUG [AWT-EventQueue-0] Presenter - applyProperties(New Project, [Title = New Project, Description = null, Author = jvanvalkenburgh, Width = 15cm, Height = 8.5cm, Grid Spacing = 0.1in, Default Font = java.awt.Font[family=Dialog,name=Dialog.plain,style=plain,size=14], Default Font Size = 14, Dot Spacing = 1])
+14:56:47,564  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:56:47,670 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=286x 9916ms; boards.Breadboard=286x 3487ms; passive.RadialElectrolytic=2288x 1184ms; passive.Resistor=1935x 971ms; passive.RadialInductor=1144x 547ms; connectivity.HookupWire=4004x 539ms; passive.RadialCeramicDiskCapacitor=1144x 480ms; electromechanical.PlasticDCJack=572x 349ms; connectivity.CopperTrace=4576x 215ms; semiconductors.DiodePlastic=572x 194ms; semiconductors.DIL_IC=572x 165ms; electromechanical.PinHeader=572x 60ms}
+14:56:47,670 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 289x 100ms avg
+14:56:47,670 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:56:47,670 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:56:47,671 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:56:48,439 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1356,y=1084], 1, false, false, false)
+14:56:51,071 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1010,y=178], 2)
+14:56:52,695 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1548,y=1164])
+14:56:52,701 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:56:54,967 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1410,y=340], 2)
+14:56:55,672 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1384,y=340])
+14:56:55,699  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+14:56:55,701 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+14:56:56,335 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1645,y=671], 1, false, false, false)
+14:57:00,311  INFO [AWT-EventQueue-0] ActionFactory - ExportPNGAction triggered
+14:57:04,347  INFO [AWT-EventQueue-0] ConfigurationManager - Saving configuration
+14:57:04,372 DEBUG [SwingWorker-pool-1-thread-6] ActionFactory - Exporting to /home/jvanvalkenburgh/git/vibraphone-controller/cad/Power_Proto_PCB.png
+15:19:34,851 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=507,y=1266], 1, false, false, false)
+15:19:34,939 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=307x 10691ms; boards.Breadboard=307x 3785ms; passive.RadialElectrolytic=2456x 1267ms; passive.Resistor=2082x 1038ms; passive.RadialInductor=1228x 587ms; connectivity.HookupWire=4298x 582ms; passive.RadialCeramicDiskCapacitor=1228x 513ms; electromechanical.PlasticDCJack=614x 379ms; connectivity.CopperTrace=4912x 231ms; semiconductors.DiodePlastic=614x 208ms; semiconductors.DIL_IC=614x 178ms; electromechanical.PinHeader=614x 64ms}
+15:19:34,939 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 310x 99ms avg
+15:19:34,939 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+15:19:34,939 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+15:19:34,939 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+15:19:35,571 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1222,y=1017], 1, false, false, false)
+15:19:36,811 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1626,y=385], 1, false, false, false)
+15:19:44,964 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1671,y=1155], 1, false, false, false)
+15:19:46,540 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1671,y=1168], 2)
+15:19:48,740 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1803,y=1164])
+15:19:48,781  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+15:19:48,781  INFO [pool-2-thread-1] Presenter - saveProjectToFile(/home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T15-19-48.diy)
+15:19:48,783 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+15:19:49,988 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1681,y=1253], 1, false, false, false)
+15:19:51,396 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1671,y=1258], 1, false, false, false)
+15:19:53,612 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1803,y=1257], 2)
+15:19:55,285 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1677,y=1258])
+15:19:55,323  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+15:19:55,324 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+15:19:56,692 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1389,y=1456], 1, false, false, false)
+15:25:15,425 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1925,y=669], 1, false, false, false)
+15:25:15,567 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=325x 11294ms; boards.Breadboard=325x 4060ms; passive.RadialElectrolytic=2600x 1362ms; passive.Resistor=2208x 1118ms; passive.RadialInductor=1300x 632ms; connectivity.HookupWire=4550x 627ms; passive.RadialCeramicDiskCapacitor=1300x 553ms; electromechanical.PlasticDCJack=650x 408ms; connectivity.CopperTrace=5200x 248ms; semiconductors.DiodePlastic=650x 224ms; semiconductors.DIL_IC=650x 190ms; electromechanical.PinHeader=650x 68ms}
+15:25:15,567 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 328x 99ms avg
+15:25:15,567 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+15:25:15,567 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+15:25:15,567 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+15:25:20,505 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1914,y=674], 2)
+15:25:21,674 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1941,y=671])
+15:25:21,722  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+15:25:21,723  INFO [pool-2-thread-1] Presenter - saveProjectToFile(/home/jvanvalkenburgh/diylc/backup/Power_Proto_PCB.2024-01-28T15-25-21.diy)
+15:25:21,728 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+15:25:22,457 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1960,y=575], 1, false, false, false)
+15:25:23,513 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1959,y=575], 2)
+15:25:24,702 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1920,y=577])
+15:25:24,723  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+15:25:24,724 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+15:25:25,473 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1929,y=643], 1, false, false, false)
+15:25:27,721 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1921,y=513], 2)
+15:25:28,490 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1944,y=513])
+15:25:28,499  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+15:25:28,501 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+15:25:30,073 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1917,y=744], 1, false, false, false)
+15:25:31,097 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1948,y=746], 2)
+15:25:32,314 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1915,y=749])
+15:25:32,352  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+15:25:32,354 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+15:25:33,017 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=1919,y=647], 1, false, false, false)
+15:25:34,817 DEBUG [AWT-EventQueue-0] Presenter - dragStarted(java.awt.Point[x=1920,y=750], 2)
+15:25:35,571 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(java.awt.Point[x=1946,y=756])
+15:25:35,575  INFO [AWT-EventQueue-0] UndoHandler - Undo state changed
+15:25:35,577 DEBUG [AWT-EventQueue-0] Presenter - dragEnded(null)
+15:25:36,265 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2389,y=860], 1, false, false, false)
+15:35:48,322 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=344x 12097ms; boards.Breadboard=344x 4367ms; passive.RadialElectrolytic=2752x 1466ms; passive.Resistor=2341x 1210ms; passive.RadialInductor=1376x 694ms; connectivity.HookupWire=4816x 671ms; passive.RadialCeramicDiskCapacitor=1376x 594ms; electromechanical.PlasticDCJack=688x 437ms; connectivity.CopperTrace=5504x 267ms; semiconductors.DiodePlastic=688x 242ms; semiconductors.DIL_IC=688x 203ms; electromechanical.PinHeader=688x 73ms}
+15:35:48,322 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 347x 100ms avg
+15:35:48,322 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+15:35:48,322 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+15:35:48,323 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+15:35:49,678 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2107,y=1154], 1, false, false, false)
+15:35:51,206 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2228,y=1182], 1, false, false, false)
+15:35:51,503 DEBUG [AWT-EventQueue-0] Presenter - mouseClicked(java.awt.Point[x=2246,y=1104], 1, false, false, false)
+15:47:51,008 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=352x 12778ms; boards.Breadboard=352x 4648ms; passive.RadialElectrolytic=2816x 1535ms; passive.Resistor=2397x 1285ms; passive.RadialInductor=1408x 739ms; connectivity.HookupWire=4928x 704ms; passive.RadialCeramicDiskCapacitor=1408x 624ms; electromechanical.PlasticDCJack=704x 456ms; connectivity.CopperTrace=5632x 283ms; semiconductors.DiodePlastic=704x 253ms; semiconductors.DIL_IC=704x 212ms; electromechanical.PinHeader=704x 76ms}
+15:47:51,019 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 355x 102ms avg
+15:47:51,019 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+15:47:51,019 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+15:47:51,019 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+08:32:38,308 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=354x 12923ms; boards.Breadboard=354x 4699ms; passive.RadialElectrolytic=2832x 1550ms; passive.Resistor=2411x 1299ms; passive.RadialInductor=1416x 747ms; connectivity.HookupWire=4956x 713ms; passive.RadialCeramicDiskCapacitor=1416x 630ms; electromechanical.PlasticDCJack=708x 460ms; connectivity.CopperTrace=5664x 285ms; semiconductors.DiodePlastic=708x 256ms; semiconductors.DIL_IC=708x 213ms; electromechanical.PinHeader=708x 76ms}
+08:32:38,309 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 357x 103ms avg
+08:32:38,309 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+08:32:38,309 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+08:32:38,309 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+08:43:19,353 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=356x 13058ms; boards.Breadboard=356x 4774ms; passive.RadialElectrolytic=2848x 1567ms; passive.Resistor=2425x 1312ms; passive.RadialInductor=1424x 755ms; connectivity.HookupWire=4984x 720ms; passive.RadialCeramicDiskCapacitor=1424x 635ms; electromechanical.PlasticDCJack=712x 466ms; connectivity.CopperTrace=5696x 289ms; semiconductors.DiodePlastic=712x 258ms; semiconductors.DIL_IC=712x 216ms; electromechanical.PinHeader=712x 77ms}
+08:43:19,354 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 359x 103ms avg
+08:43:19,354 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+08:43:19,354 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+08:43:19,354 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:03:23,543 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=358x 13172ms; boards.Breadboard=358x 4815ms; passive.RadialElectrolytic=2864x 1577ms; passive.Resistor=2439x 1322ms; passive.RadialInductor=1432x 760ms; connectivity.HookupWire=5012x 728ms; passive.RadialCeramicDiskCapacitor=1432x 638ms; electromechanical.PlasticDCJack=716x 469ms; connectivity.CopperTrace=5728x 291ms; semiconductors.DiodePlastic=716x 260ms; semiconductors.DIL_IC=716x 218ms; electromechanical.PinHeader=716x 78ms}
+09:03:23,543 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 361x 103ms avg
+09:03:23,543 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:03:23,543 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:03:23,543 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:13:25,230 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=360x 13310ms; boards.Breadboard=360x 4862ms; passive.RadialElectrolytic=2880x 1594ms; passive.Resistor=2453x 1332ms; passive.RadialInductor=1440x 767ms; connectivity.HookupWire=5040x 732ms; passive.RadialCeramicDiskCapacitor=1440x 668ms; electromechanical.PlasticDCJack=720x 472ms; connectivity.CopperTrace=5760x 294ms; semiconductors.DiodePlastic=720x 262ms; semiconductors.DIL_IC=720x 219ms; electromechanical.PinHeader=720x 78ms}
+09:13:25,230 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 363x 104ms avg
+09:13:25,231 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:13:25,231 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:13:25,231 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:38:38,730 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=366x 13452ms; boards.Breadboard=366x 4876ms; passive.RadialElectrolytic=2928x 1605ms; passive.Resistor=2495x 1342ms; passive.RadialInductor=1464x 771ms; connectivity.HookupWire=5124x 733ms; passive.RadialCeramicDiskCapacitor=1464x 674ms; electromechanical.PlasticDCJack=732x 475ms; connectivity.CopperTrace=5856x 298ms; semiconductors.DiodePlastic=732x 265ms; semiconductors.DIL_IC=732x 220ms; electromechanical.PinHeader=732x 79ms}
+09:38:38,730 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 369x 103ms avg
+09:38:38,730 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:38:38,730 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:38:38,730 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+07:17:53,334 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=368x 13628ms; boards.Breadboard=368x 4892ms; passive.RadialElectrolytic=2944x 1626ms; passive.Resistor=2509x 1346ms; passive.RadialInductor=1472x 773ms; connectivity.HookupWire=5152x 733ms; passive.RadialCeramicDiskCapacitor=1472x 676ms; electromechanical.PlasticDCJack=736x 477ms; connectivity.CopperTrace=5888x 300ms; semiconductors.DiodePlastic=736x 266ms; semiconductors.DIL_IC=736x 221ms; electromechanical.PinHeader=736x 79ms}
+07:17:53,334 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 371x 103ms avg
+07:17:53,334 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+07:17:53,334 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+07:17:53,334 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+07:33:58,546 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=370x 13713ms; boards.Breadboard=370x 4902ms; passive.RadialElectrolytic=2960x 1661ms; passive.Resistor=2523x 1352ms; passive.RadialInductor=1480x 780ms; connectivity.HookupWire=5180x 733ms; passive.RadialCeramicDiskCapacitor=1480x 681ms; electromechanical.PlasticDCJack=740x 479ms; connectivity.CopperTrace=5920x 303ms; semiconductors.DiodePlastic=740x 267ms; semiconductors.DIL_IC=740x 223ms; electromechanical.PinHeader=740x 79ms}
+07:33:58,557 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 373x 103ms avg
+07:33:58,558 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+07:33:58,558 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+07:33:58,558 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+08:02:55,824 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=372x 13777ms; boards.Breadboard=372x 4907ms; passive.RadialElectrolytic=2976x 1666ms; passive.Resistor=2537x 1357ms; passive.RadialInductor=1488x 782ms; connectivity.HookupWire=5208x 734ms; passive.RadialCeramicDiskCapacitor=1488x 684ms; electromechanical.PlasticDCJack=744x 480ms; connectivity.CopperTrace=5952x 305ms; semiconductors.DiodePlastic=744x 269ms; semiconductors.DIL_IC=744x 223ms; electromechanical.PinHeader=744x 79ms}
+08:02:55,824 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 375x 103ms avg
+08:02:55,824 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+08:02:55,824 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+08:02:55,824 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+08:13:12,080 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=374x 13863ms; boards.Breadboard=374x 4913ms; passive.RadialElectrolytic=2992x 1670ms; passive.Resistor=2551x 1361ms; passive.RadialInductor=1496x 784ms; connectivity.HookupWire=5236x 735ms; passive.RadialCeramicDiskCapacitor=1496x 686ms; electromechanical.PlasticDCJack=748x 482ms; connectivity.CopperTrace=5984x 306ms; semiconductors.DiodePlastic=748x 270ms; semiconductors.DIL_IC=748x 224ms; electromechanical.PinHeader=748x 79ms}
+08:13:12,080 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 377x 102ms avg
+08:13:12,080 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+08:13:12,081 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+08:13:12,081 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+13:20:10,427 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=376x 13930ms; boards.Breadboard=376x 4916ms; passive.RadialElectrolytic=3008x 1673ms; passive.Resistor=2565x 1366ms; passive.RadialInductor=1504x 786ms; connectivity.HookupWire=5264x 735ms; passive.RadialCeramicDiskCapacitor=1504x 689ms; electromechanical.PlasticDCJack=752x 483ms; connectivity.CopperTrace=6016x 308ms; semiconductors.DiodePlastic=752x 271ms; semiconductors.DIL_IC=752x 224ms; electromechanical.PinHeader=752x 79ms}
+13:20:10,427 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 379x 102ms avg
+13:20:10,427 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+13:20:10,427 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+13:20:10,427 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+13:41:15,911 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=378x 14069ms; boards.Breadboard=378x 4925ms; passive.RadialElectrolytic=3024x 1682ms; passive.Resistor=2579x 1371ms; passive.RadialInductor=1512x 790ms; connectivity.HookupWire=5292x 735ms; passive.RadialCeramicDiskCapacitor=1512x 693ms; electromechanical.PlasticDCJack=756x 487ms; connectivity.CopperTrace=6048x 311ms; semiconductors.DiodePlastic=756x 273ms; semiconductors.DIL_IC=756x 225ms; electromechanical.PinHeader=756x 79ms}
+13:41:15,911 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 381x 102ms avg
+13:41:15,911 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+13:41:15,911 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+13:41:15,911 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+13:50:32,652 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=380x 14148ms; boards.Breadboard=380x 4930ms; passive.RadialElectrolytic=3040x 1688ms; passive.Resistor=2593x 1377ms; passive.RadialInductor=1520x 794ms; connectivity.HookupWire=5320x 735ms; passive.RadialCeramicDiskCapacitor=1520x 699ms; electromechanical.PlasticDCJack=760x 489ms; connectivity.CopperTrace=6080x 317ms; semiconductors.DiodePlastic=760x 274ms; semiconductors.DIL_IC=760x 226ms; electromechanical.PinHeader=760x 79ms}
+13:50:32,652 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 383x 102ms avg
+13:50:32,652 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+13:50:32,653 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+13:50:32,653 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+14:39:10,637 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=382x 14311ms; boards.Breadboard=382x 4942ms; passive.RadialElectrolytic=3056x 1696ms; passive.Resistor=2607x 1386ms; passive.RadialInductor=1528x 797ms; connectivity.HookupWire=5348x 736ms; passive.RadialCeramicDiskCapacitor=1528x 703ms; electromechanical.PlasticDCJack=764x 491ms; connectivity.CopperTrace=6112x 320ms; semiconductors.DiodePlastic=764x 276ms; semiconductors.DIL_IC=764x 227ms; electromechanical.PinHeader=764x 79ms}
+14:39:10,637 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 385x 102ms avg
+14:39:10,637 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+14:39:10,649 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+14:39:10,649 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+16:33:10,861 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=384x 14531ms; boards.Breadboard=384x 4972ms; passive.RadialElectrolytic=3072x 1709ms; passive.Resistor=2621x 1406ms; passive.RadialInductor=1536x 799ms; connectivity.HookupWire=5376x 736ms; passive.RadialCeramicDiskCapacitor=1536x 706ms; electromechanical.PlasticDCJack=768x 501ms; connectivity.CopperTrace=6144x 325ms; semiconductors.DiodePlastic=768x 286ms; semiconductors.DIL_IC=768x 228ms; electromechanical.PinHeader=768x 84ms}
+16:33:10,862 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 387x 103ms avg
+16:33:10,863 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+16:33:10,863 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+16:33:10,864 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+17:45:09,721 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=386x 14634ms; boards.Breadboard=386x 4989ms; passive.RadialElectrolytic=3088x 1714ms; passive.Resistor=2635x 1413ms; passive.RadialInductor=1544x 801ms; connectivity.HookupWire=5404x 746ms; passive.RadialCeramicDiskCapacitor=1544x 710ms; electromechanical.PlasticDCJack=772x 503ms; connectivity.CopperTrace=6176x 327ms; semiconductors.DiodePlastic=772x 287ms; semiconductors.DIL_IC=772x 229ms; electromechanical.PinHeader=772x 85ms}
+17:45:09,726 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 389x 103ms avg
+17:45:09,727 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+17:45:09,727 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+17:45:09,727 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+18:02:49,572 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=388x 14717ms; boards.Breadboard=388x 5002ms; passive.RadialElectrolytic=3104x 1721ms; passive.Resistor=2649x 1421ms; passive.RadialInductor=1552x 804ms; connectivity.HookupWire=5432x 746ms; passive.RadialCeramicDiskCapacitor=1552x 714ms; electromechanical.PlasticDCJack=776x 505ms; connectivity.CopperTrace=6208x 331ms; semiconductors.DiodePlastic=776x 290ms; semiconductors.DIL_IC=776x 230ms; electromechanical.PinHeader=776x 85ms}
+18:02:49,572 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 391x 102ms avg
+18:02:49,572 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+18:02:49,572 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+18:02:49,572 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+18:36:17,248 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=390x 14837ms; boards.Breadboard=390x 5014ms; passive.RadialElectrolytic=3120x 1727ms; passive.Resistor=2663x 1429ms; passive.RadialInductor=1560x 807ms; connectivity.HookupWire=5460x 747ms; passive.RadialCeramicDiskCapacitor=1560x 718ms; electromechanical.PlasticDCJack=780x 507ms; connectivity.CopperTrace=6240x 334ms; semiconductors.DiodePlastic=780x 292ms; semiconductors.DIL_IC=780x 231ms; electromechanical.PinHeader=780x 85ms}
+18:36:17,248 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 393x 102ms avg
+18:36:17,248 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+18:36:17,248 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+18:36:17,248 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+07:27:28,349 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=392x 14898ms; boards.Breadboard=392x 5023ms; passive.RadialElectrolytic=3136x 1733ms; passive.Resistor=2677x 1437ms; passive.RadialInductor=1568x 810ms; connectivity.HookupWire=5488x 747ms; passive.RadialCeramicDiskCapacitor=1568x 721ms; electromechanical.PlasticDCJack=784x 509ms; connectivity.CopperTrace=6272x 336ms; semiconductors.DiodePlastic=784x 293ms; semiconductors.DIL_IC=784x 231ms; electromechanical.PinHeader=784x 85ms}
+07:27:28,350 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 395x 102ms avg
+07:27:28,350 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+07:27:28,350 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+07:27:28,350 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+08:58:02,898 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=394x 14993ms; boards.Breadboard=394x 5040ms; passive.RadialElectrolytic=3152x 1742ms; passive.Resistor=2691x 1443ms; passive.RadialInductor=1576x 813ms; connectivity.HookupWire=5516x 748ms; passive.RadialCeramicDiskCapacitor=1576x 724ms; electromechanical.PlasticDCJack=788x 512ms; semiconductors.DiodePlastic=788x 342ms; connectivity.CopperTrace=6304x 340ms; semiconductors.DIL_IC=788x 233ms; electromechanical.PinHeader=788x 85ms}
+08:58:02,903 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 397x 102ms avg
+08:58:02,903 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+08:58:02,903 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+08:58:02,903 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+11:45:21,230 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=396x 15123ms; boards.Breadboard=396x 5081ms; passive.RadialElectrolytic=3168x 1756ms; passive.Resistor=2705x 1465ms; passive.RadialInductor=1584x 819ms; connectivity.HookupWire=5544x 748ms; passive.RadialCeramicDiskCapacitor=1584x 730ms; electromechanical.PlasticDCJack=792x 514ms; semiconductors.DiodePlastic=792x 346ms; connectivity.CopperTrace=6336x 345ms; semiconductors.DIL_IC=792x 234ms; electromechanical.PinHeader=792x 85ms}
+11:45:21,230 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 399x 102ms avg
+11:45:21,230 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+11:45:21,230 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+11:45:21,231 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+12:23:56,123 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=398x 15249ms; boards.Breadboard=398x 5114ms; passive.RadialElectrolytic=3184x 1780ms; passive.Resistor=2719x 1488ms; passive.RadialInductor=1592x 828ms; connectivity.HookupWire=5572x 749ms; passive.RadialCeramicDiskCapacitor=1592x 741ms; electromechanical.PlasticDCJack=796x 516ms; semiconductors.DiodePlastic=796x 469ms; connectivity.CopperTrace=6368x 351ms; semiconductors.DIL_IC=796x 235ms; electromechanical.PinHeader=796x 85ms}
+12:23:56,123 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 401x 103ms avg
+12:23:56,123 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+12:23:56,123 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+12:23:56,123 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+21:15:47,646 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=400x 15325ms; boards.Breadboard=400x 5148ms; passive.RadialElectrolytic=3200x 1796ms; passive.Resistor=2733x 1498ms; passive.RadialInductor=1600x 833ms; connectivity.HookupWire=5600x 752ms; passive.RadialCeramicDiskCapacitor=1600x 746ms; electromechanical.PlasticDCJack=800x 519ms; semiconductors.DiodePlastic=800x 471ms; connectivity.CopperTrace=6400x 355ms; semiconductors.DIL_IC=800x 237ms; electromechanical.PinHeader=800x 86ms}
+21:15:47,654 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 403x 103ms avg
+21:15:47,655 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+21:15:47,656 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+21:15:47,657 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+21:45:51,355 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=407x 16358ms; boards.Breadboard=407x 5368ms; passive.RadialElectrolytic=3256x 1879ms; passive.Resistor=2782x 1567ms; passive.RadialInductor=1628x 884ms; connectivity.HookupWire=5698x 796ms; passive.RadialCeramicDiskCapacitor=1628x 789ms; electromechanical.PlasticDCJack=814x 556ms; semiconductors.DiodePlastic=814x 483ms; connectivity.CopperTrace=6512x 376ms; semiconductors.DIL_IC=814x 256ms; electromechanical.PinHeader=814x 88ms}
+21:45:51,356 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 410x 107ms avg
+21:45:51,356 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+21:45:51,357 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+21:45:51,358 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+08:23:31,035 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=409x 16440ms; boards.Breadboard=409x 5400ms; passive.RadialElectrolytic=3272x 1893ms; passive.Resistor=2796x 1580ms; passive.RadialInductor=1636x 891ms; connectivity.HookupWire=5726x 800ms; passive.RadialCeramicDiskCapacitor=1636x 796ms; electromechanical.PlasticDCJack=818x 559ms; semiconductors.DiodePlastic=818x 485ms; connectivity.CopperTrace=6544x 377ms; semiconductors.DIL_IC=818x 258ms; electromechanical.PinHeader=818x 89ms}
+08:23:31,037 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 412x 107ms avg
+08:23:31,037 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+08:23:31,037 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+08:23:31,038 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+08:38:41,868 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=411x 16588ms; boards.Breadboard=411x 5455ms; passive.RadialElectrolytic=3288x 1910ms; passive.Resistor=2810x 1597ms; passive.RadialInductor=1644x 898ms; passive.RadialCeramicDiskCapacitor=1644x 807ms; connectivity.HookupWire=5754x 805ms; electromechanical.PlasticDCJack=822x 563ms; semiconductors.DiodePlastic=822x 490ms; connectivity.CopperTrace=6576x 381ms; semiconductors.DIL_IC=822x 259ms; electromechanical.PinHeader=822x 90ms}
+08:38:41,868 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 414x 108ms avg
+08:38:41,868 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+08:38:41,868 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+08:38:41,868 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:40:33,508 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=413x 16693ms; boards.Breadboard=413x 5521ms; passive.RadialElectrolytic=3304x 1926ms; passive.Resistor=2824x 1607ms; passive.RadialInductor=1652x 904ms; connectivity.HookupWire=5782x 818ms; passive.RadialCeramicDiskCapacitor=1652x 811ms; electromechanical.PlasticDCJack=826x 568ms; semiconductors.DiodePlastic=826x 491ms; connectivity.CopperTrace=6608x 383ms; semiconductors.DIL_IC=826x 261ms; electromechanical.PinHeader=826x 90ms}
+09:40:33,508 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 416x 108ms avg
+09:40:33,508 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:40:33,508 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:40:33,508 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+11:15:56,378 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=415x 16881ms; boards.Breadboard=415x 5609ms; passive.RadialElectrolytic=3320x 1953ms; passive.Resistor=2838x 1630ms; passive.RadialInductor=1660x 910ms; connectivity.HookupWire=5810x 823ms; passive.RadialCeramicDiskCapacitor=1660x 816ms; electromechanical.PlasticDCJack=830x 576ms; semiconductors.DiodePlastic=830x 493ms; connectivity.CopperTrace=6640x 392ms; semiconductors.DIL_IC=830x 262ms; electromechanical.PinHeader=830x 91ms}
+11:15:56,378 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 418x 108ms avg
+11:15:56,378 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+11:15:56,379 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+11:15:56,379 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+18:21:11,689 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=417x 17089ms; boards.Breadboard=417x 5638ms; passive.RadialElectrolytic=3336x 1968ms; passive.Resistor=2852x 1644ms; passive.RadialInductor=1668x 917ms; connectivity.HookupWire=5838x 827ms; passive.RadialCeramicDiskCapacitor=1668x 820ms; electromechanical.PlasticDCJack=834x 579ms; semiconductors.DiodePlastic=834x 496ms; connectivity.CopperTrace=6672x 396ms; semiconductors.DIL_IC=834x 266ms; electromechanical.PinHeader=834x 91ms}
+18:21:11,689 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 420x 109ms avg
+18:21:11,689 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+18:21:11,689 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+18:21:11,689 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:08:58,686 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=427x 17829ms; boards.Breadboard=427x 5742ms; passive.RadialElectrolytic=3416x 2012ms; passive.Resistor=2922x 1682ms; passive.RadialInductor=1708x 937ms; connectivity.HookupWire=5978x 839ms; passive.RadialCeramicDiskCapacitor=1708x 837ms; electromechanical.PlasticDCJack=854x 590ms; semiconductors.DiodePlastic=854x 503ms; connectivity.CopperTrace=6832x 404ms; semiconductors.DIL_IC=854x 271ms; electromechanical.PinHeader=854x 93ms}
+09:08:58,687 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 430x 109ms avg
+09:08:58,687 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:08:58,687 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:08:58,687 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:24:14,746 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=429x 17912ms; boards.Breadboard=429x 5775ms; passive.RadialElectrolytic=3432x 2039ms; passive.Resistor=2936x 1698ms; passive.RadialInductor=1716x 943ms; connectivity.HookupWire=6006x 849ms; passive.RadialCeramicDiskCapacitor=1716x 846ms; electromechanical.PlasticDCJack=858x 593ms; semiconductors.DiodePlastic=858x 505ms; connectivity.CopperTrace=6864x 407ms; semiconductors.DIL_IC=858x 273ms; electromechanical.PinHeader=858x 93ms}
+09:24:14,746 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 432x 109ms avg
+09:24:14,747 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:24:14,747 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:24:14,748 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:35:16,654 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=433x 18139ms; boards.Breadboard=433x 5850ms; passive.RadialElectrolytic=3464x 2079ms; passive.Resistor=2964x 1726ms; passive.RadialInductor=1732x 961ms; connectivity.HookupWire=6062x 862ms; passive.RadialCeramicDiskCapacitor=1732x 856ms; electromechanical.PlasticDCJack=866x 606ms; semiconductors.DiodePlastic=866x 510ms; connectivity.CopperTrace=6928x 413ms; semiconductors.DIL_IC=866x 276ms; electromechanical.PinHeader=866x 94ms}
+09:35:16,665 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 436x 110ms avg
+09:35:16,665 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:35:16,665 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:35:16,666 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:36:34,138 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=435x 18243ms; boards.Breadboard=435x 5883ms; passive.RadialElectrolytic=3480x 2095ms; passive.Resistor=2978x 1738ms; passive.RadialInductor=1740x 969ms; connectivity.HookupWire=6090x 866ms; passive.RadialCeramicDiskCapacitor=1740x 861ms; electromechanical.PlasticDCJack=870x 609ms; semiconductors.DiodePlastic=870x 512ms; connectivity.CopperTrace=6960x 415ms; semiconductors.DIL_IC=870x 277ms; electromechanical.PinHeader=870x 95ms}
+09:36:34,138 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 438x 110ms avg
+09:36:34,138 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:36:34,138 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:36:34,138 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:46:43,679 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=437x 18377ms; boards.Breadboard=437x 5943ms; passive.RadialElectrolytic=3496x 2108ms; passive.Resistor=2992x 1748ms; passive.RadialInductor=1748x 975ms; connectivity.HookupWire=6118x 870ms; passive.RadialCeramicDiskCapacitor=1748x 867ms; electromechanical.PlasticDCJack=874x 613ms; semiconductors.DiodePlastic=874x 515ms; connectivity.CopperTrace=6992x 417ms; semiconductors.DIL_IC=874x 279ms; electromechanical.PinHeader=874x 95ms}
+09:46:43,690 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 440x 110ms avg
+09:46:43,690 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:46:43,690 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:46:43,690 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+12:45:19,651 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=439x 18468ms; boards.Breadboard=439x 5983ms; passive.RadialElectrolytic=3512x 2117ms; passive.Resistor=3006x 1756ms; passive.RadialInductor=1756x 979ms; connectivity.HookupWire=6146x 873ms; passive.RadialCeramicDiskCapacitor=1756x 870ms; electromechanical.PlasticDCJack=878x 615ms; semiconductors.DiodePlastic=878x 516ms; connectivity.CopperTrace=7024x 419ms; semiconductors.DIL_IC=878x 280ms; electromechanical.PinHeader=878x 95ms}
+12:45:19,663 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 442x 110ms avg
+12:45:19,663 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+12:45:19,663 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+12:45:19,663 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+13:10:13,846 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=441x 18535ms; boards.Breadboard=441x 6017ms; passive.RadialElectrolytic=3528x 2133ms; passive.Resistor=3020x 1767ms; passive.RadialInductor=1764x 986ms; connectivity.HookupWire=6174x 881ms; passive.RadialCeramicDiskCapacitor=1764x 874ms; electromechanical.PlasticDCJack=882x 618ms; semiconductors.DiodePlastic=882x 517ms; connectivity.CopperTrace=7056x 422ms; semiconductors.DIL_IC=882x 282ms; electromechanical.PinHeader=882x 96ms}
+13:10:13,846 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 444x 110ms avg
+13:10:13,846 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+13:10:13,847 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+13:10:13,847 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+13:45:39,213 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=443x 18642ms; boards.Breadboard=443x 6052ms; passive.RadialElectrolytic=3544x 2147ms; passive.Resistor=3034x 1779ms; passive.RadialInductor=1772x 993ms; connectivity.HookupWire=6202x 887ms; passive.RadialCeramicDiskCapacitor=1772x 878ms; electromechanical.PlasticDCJack=886x 621ms; semiconductors.DiodePlastic=886x 519ms; connectivity.CopperTrace=7088x 424ms; semiconductors.DIL_IC=886x 283ms; electromechanical.PinHeader=886x 97ms}
+13:45:39,213 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 446x 110ms avg
+13:45:39,213 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+13:45:39,213 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+13:45:39,213 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+15:00:24,185 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=445x 18782ms; boards.Breadboard=445x 6115ms; passive.RadialElectrolytic=3560x 2161ms; passive.Resistor=3048x 1792ms; passive.RadialInductor=1780x 1001ms; connectivity.HookupWire=6230x 895ms; passive.RadialCeramicDiskCapacitor=1780x 886ms; electromechanical.PlasticDCJack=890x 625ms; semiconductors.DiodePlastic=890x 521ms; connectivity.CopperTrace=7120x 431ms; semiconductors.DIL_IC=890x 285ms; electromechanical.PinHeader=890x 97ms}
+15:00:24,188 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 448x 111ms avg
+15:00:24,188 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+15:00:24,188 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+15:00:24,188 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+22:21:56,727 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=447x 18874ms; boards.Breadboard=447x 6142ms; passive.RadialElectrolytic=3576x 2169ms; passive.Resistor=3062x 1800ms; passive.RadialInductor=1788x 1016ms; connectivity.HookupWire=6258x 899ms; passive.RadialCeramicDiskCapacitor=1788x 889ms; electromechanical.PlasticDCJack=894x 628ms; semiconductors.DiodePlastic=894x 522ms; connectivity.CopperTrace=7152x 433ms; semiconductors.DIL_IC=894x 286ms; electromechanical.PinHeader=894x 98ms}
+22:21:56,727 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 450x 110ms avg
+22:21:56,727 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+22:21:56,727 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+22:21:56,727 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+22:23:05,885 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=449x 18971ms; boards.Breadboard=449x 6174ms; passive.RadialElectrolytic=3592x 2178ms; passive.Resistor=3076x 1810ms; passive.RadialInductor=1796x 1020ms; connectivity.HookupWire=6286x 902ms; passive.RadialCeramicDiskCapacitor=1796x 893ms; electromechanical.PlasticDCJack=898x 630ms; semiconductors.DiodePlastic=898x 524ms; connectivity.CopperTrace=7184x 435ms; semiconductors.DIL_IC=898x 287ms; electromechanical.PinHeader=898x 98ms}
+22:23:05,886 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 452x 111ms avg
+22:23:05,886 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+22:23:05,886 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+22:23:05,886 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+23:03:42,982 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=455x 19367ms; boards.Breadboard=455x 6325ms; passive.RadialElectrolytic=3640x 2222ms; passive.Resistor=3118x 1849ms; passive.RadialInductor=1820x 1037ms; connectivity.HookupWire=6370x 923ms; passive.RadialCeramicDiskCapacitor=1820x 911ms; electromechanical.PlasticDCJack=910x 639ms; semiconductors.DiodePlastic=910x 530ms; connectivity.CopperTrace=7280x 441ms; semiconductors.DIL_IC=910x 303ms; electromechanical.PinHeader=910x 100ms}
+23:03:42,982 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 458x 111ms avg
+23:03:42,982 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+23:03:42,982 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+23:03:42,982 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+08:26:17,378 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=457x 19442ms; boards.Breadboard=457x 6354ms; passive.RadialElectrolytic=3656x 2232ms; passive.Resistor=3132x 1857ms; passive.RadialInductor=1828x 1041ms; connectivity.HookupWire=6398x 927ms; passive.RadialCeramicDiskCapacitor=1828x 914ms; electromechanical.PlasticDCJack=914x 642ms; semiconductors.DiodePlastic=914x 532ms; connectivity.CopperTrace=7312x 443ms; semiconductors.DIL_IC=914x 304ms; electromechanical.PinHeader=914x 100ms}
+08:26:17,378 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 460x 111ms avg
+08:26:17,378 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+08:26:17,378 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+08:26:17,378 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:12:04,942 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=459x 19640ms; boards.Breadboard=459x 6408ms; passive.RadialElectrolytic=3672x 2254ms; passive.Resistor=3146x 1876ms; passive.RadialInductor=1836x 1051ms; connectivity.HookupWire=6426x 931ms; passive.RadialCeramicDiskCapacitor=1836x 923ms; electromechanical.PlasticDCJack=918x 645ms; semiconductors.DiodePlastic=918x 535ms; connectivity.CopperTrace=7344x 447ms; semiconductors.DIL_IC=918x 306ms; electromechanical.PinHeader=918x 101ms}
+09:12:04,947 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 462x 112ms avg
+09:12:04,948 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:12:04,949 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:12:04,949 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:29:42,664 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=461x 19722ms; boards.Breadboard=461x 6446ms; passive.RadialElectrolytic=3688x 2278ms; passive.Resistor=3160x 1895ms; passive.RadialInductor=1844x 1057ms; connectivity.HookupWire=6454x 934ms; passive.RadialCeramicDiskCapacitor=1844x 930ms; electromechanical.PlasticDCJack=922x 648ms; semiconductors.DiodePlastic=922x 538ms; connectivity.CopperTrace=7376x 451ms; semiconductors.DIL_IC=922x 307ms; electromechanical.PinHeader=922x 101ms}
+09:29:42,664 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 464x 112ms avg
+09:29:42,664 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:29:42,664 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:29:42,664 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+09:40:13,923 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=467x 19938ms; boards.Breadboard=467x 6472ms; passive.RadialElectrolytic=3736x 2301ms; passive.Resistor=3202x 1916ms; passive.RadialInductor=1868x 1065ms; passive.RadialCeramicDiskCapacitor=1868x 940ms; connectivity.HookupWire=6538x 935ms; electromechanical.PlasticDCJack=934x 654ms; semiconductors.DiodePlastic=934x 543ms; connectivity.CopperTrace=7472x 459ms; semiconductors.DIL_IC=934x 310ms; electromechanical.PinHeader=934x 102ms}
+09:40:13,923 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 470x 111ms avg
+09:40:13,923 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+09:40:13,923 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+09:40:13,923 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+11:28:12,123 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=469x 20008ms; boards.Breadboard=469x 6506ms; passive.RadialElectrolytic=3752x 2306ms; passive.Resistor=3216x 1921ms; passive.RadialInductor=1876x 1067ms; passive.RadialCeramicDiskCapacitor=1876x 945ms; connectivity.HookupWire=6566x 944ms; electromechanical.PlasticDCJack=938x 655ms; semiconductors.DiodePlastic=938x 544ms; connectivity.CopperTrace=7504x 464ms; semiconductors.DIL_IC=938x 310ms; electromechanical.PinHeader=938x 102ms}
+11:28:12,123 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 472x 111ms avg
+11:28:12,124 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+11:28:12,124 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+11:28:12,124 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+12:23:10,948 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=471x 20093ms; boards.Breadboard=471x 6519ms; passive.RadialElectrolytic=3768x 2313ms; passive.Resistor=3230x 1930ms; passive.RadialInductor=1884x 1069ms; passive.RadialCeramicDiskCapacitor=1884x 948ms; connectivity.HookupWire=6594x 946ms; electromechanical.PlasticDCJack=942x 657ms; semiconductors.DiodePlastic=942x 545ms; connectivity.CopperTrace=7536x 466ms; semiconductors.DIL_IC=942x 311ms; electromechanical.PinHeader=942x 102ms}
+12:23:10,949 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 474x 111ms avg
+12:23:10,949 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+12:23:10,949 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+12:23:10,949 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+13:04:31,737 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=473x 20260ms; boards.Breadboard=473x 6542ms; passive.RadialElectrolytic=3784x 2322ms; passive.Resistor=3244x 1963ms; passive.RadialInductor=1892x 1074ms; passive.RadialCeramicDiskCapacitor=1892x 952ms; connectivity.HookupWire=6622x 946ms; electromechanical.PlasticDCJack=946x 664ms; semiconductors.DiodePlastic=946x 548ms; connectivity.CopperTrace=7568x 478ms; semiconductors.DIL_IC=946x 312ms; electromechanical.PinHeader=946x 102ms}
+13:04:31,738 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 476x 111ms avg
+13:04:31,741 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+13:04:31,741 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+13:04:31,741 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+13:22:09,280 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=475x 20391ms; boards.Breadboard=475x 6563ms; passive.RadialElectrolytic=3800x 2334ms; passive.Resistor=3258x 1975ms; passive.RadialInductor=1900x 1077ms; passive.RadialCeramicDiskCapacitor=1900x 955ms; connectivity.HookupWire=6650x 949ms; electromechanical.PlasticDCJack=950x 667ms; semiconductors.DiodePlastic=950x 553ms; connectivity.CopperTrace=7600x 489ms; semiconductors.DIL_IC=950x 313ms; electromechanical.PinHeader=950x 102ms}
+13:22:09,281 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 478x 111ms avg
+13:22:09,281 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+13:22:09,281 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+13:22:09,281 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+21:53:06,712 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=477x 20554ms; boards.Breadboard=477x 6580ms; passive.RadialElectrolytic=3816x 2347ms; passive.Resistor=3272x 1991ms; passive.RadialInductor=1908x 1087ms; passive.RadialCeramicDiskCapacitor=1908x 968ms; connectivity.HookupWire=6678x 950ms; electromechanical.PlasticDCJack=954x 669ms; semiconductors.DiodePlastic=954x 557ms; connectivity.CopperTrace=7632x 491ms; semiconductors.DIL_IC=954x 314ms; electromechanical.PinHeader=954x 103ms}
+21:53:06,712 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 480x 111ms avg
+21:53:06,712 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+21:53:06,712 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+21:53:06,713 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+22:01:07,644 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=480x 20673ms; boards.Breadboard=480x 6612ms; passive.RadialElectrolytic=3840x 2359ms; passive.Resistor=3293x 2011ms; passive.RadialInductor=1920x 1096ms; passive.RadialCeramicDiskCapacitor=1920x 975ms; connectivity.HookupWire=6720x 954ms; electromechanical.PlasticDCJack=960x 675ms; semiconductors.DiodePlastic=960x 559ms; connectivity.CopperTrace=7680x 495ms; semiconductors.DIL_IC=960x 316ms; electromechanical.PinHeader=960x 103ms}
+22:01:07,644 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 483x 111ms avg
+22:01:07,644 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+22:01:07,644 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+22:01:07,644 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
+22:36:49,529 DEBUG [AWT-EventQueue-0] DrawingManager - Render stats: {boards.PerfBoard=482x 21699ms; boards.Breadboard=482x 6696ms; passive.RadialElectrolytic=3856x 2382ms; passive.Resistor=3307x 2023ms; passive.RadialInductor=1928x 1101ms; passive.RadialCeramicDiskCapacitor=1928x 1013ms; connectivity.HookupWire=6748x 957ms; electromechanical.PlasticDCJack=964x 679ms; semiconductors.DiodePlastic=964x 564ms; connectivity.CopperTrace=7712x 499ms; semiconductors.DIL_IC=964x 317ms; electromechanical.PinHeader=964x 104ms}
+22:36:49,530 DEBUG [AWT-EventQueue-0] DrawingManager - Page stats: 485x 113ms avg
+22:36:49,530 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 elements, approx size is 0 MB
+22:36:49,530 DEBUG [AWT-EventQueue-0] DrawingCache - Render cache contains 0 evicted entries
+22:36:49,530 DEBUG [AWT-EventQueue-0] DrawingCache - Cache render distribution stats: {}
