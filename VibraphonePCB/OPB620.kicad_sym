@@ -319,7 +319,7 @@
 				(start -33.02 13.97)
 				(end -27.432 -13.97)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -330,7 +330,7 @@
 				(start -21.59 13.97)
 				(end 21.59 -13.97)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
