@@ -887,7 +887,7 @@
 			(remove_unused_layers no)
 			(uuid "6fc9d220-85ff-4bb0-adee-378c0baec6a6")
 		)
-		(model "C:/Users/glenn/Downloads/BA56-12EWA.step"
+		(model "C:/Users/kojis/Documents/git/vibraphone-controller/3d/BA56-12EWA.step"
 			(offset
 				(xyz 0 0 -0.5)
 			)
@@ -2619,7 +2619,7 @@
 			(remove_unused_layers no)
 			(uuid "1864fd04-90c6-40f8-83dc-80a93693395c")
 		)
-		(model "C:/Users/glenn/Downloads/RS6011YA6009.stp"
+		(model "C:/Users/kojis/Documents/git/vibraphone-controller/3d/RS6011YA6009.stp"
 			(offset
 				(xyz -1.62 0.4 7)
 			)
@@ -3628,7 +3628,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(uuid "8b4897bc-5653-4957-bee0-ebda27ecaaef")
 		)
-		(model "C:/Users/glenn/Downloads/AA3528-015.step"
+		(model "C:/Users/kojis/Documents/git/vibraphone-controller/3d/AA3528-015.step"
 			(offset
 				(xyz 1.125 0.45 1.5)
 			)
@@ -4027,7 +4027,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(uuid "f1edd684-d147-420e-9998-0c45cb71304f")
 		)
-		(model "C:/Users/glenn/Downloads/AA3528-015.step"
+		(model "C:/Users/kojis/Documents/git/vibraphone-controller/3d/AA3528-015.step"
 			(offset
 				(xyz 1.125 0.45 1.5)
 			)
@@ -4328,7 +4328,7 @@
 			(solder_mask_margin 0.102)
 			(uuid "67fe2b2b-ccaa-4a87-9f9e-4c5ad26c1335")
 		)
-		(model "C:/Users/glenn/Downloads/1-1571994-0.stp"
+		(model "C:/Users/kojis/Documents/git/vibraphone-controller/3d/1-1571994-0.stp"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -4727,7 +4727,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(uuid "6d659fe1-09dc-4139-85b4-2f81c1a10c6e")
 		)
-		(model "C:/Users/glenn/Downloads/AA3528-015.step"
+		(model "C:/Users/kojis/Documents/git/vibraphone-controller/3d/AA3528-015.step"
 			(offset
 				(xyz 1.125 0.45 1.5)
 			)
@@ -4746,7 +4746,7 @@
 		(property "Reference" "REF**"
 			(at -9.82645 2.23532 90)
 			(layer "B.SilkS")
-			(uuid "9fe9199c-f87d-4532-bfed-ad6ab1e5a728")
+			(uuid "c21a4c16-d0de-4cce-a0ed-04c94ac35aa8")
 			(effects
 				(font
 					(size 1.000142 1.000142)
@@ -4758,7 +4758,7 @@
 		(property "Value" "TE_1-1571994-0"
 			(at -4.11354 -2.26693 90)
 			(layer "B.Fab")
-			(uuid "770a6501-4ce3-415e-ac4f-8745ac9b0a9f")
+			(uuid "052ee07a-cae5-4e6e-8226-5c2cd6583cf1")
 			(effects
 				(font
 					(size 1.00085 1.00085)
@@ -4815,7 +4815,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d4109b94-af73-4d53-8881-bdb21c472ecc")
+			(uuid "62b1a2af-c5df-4671-af0c-a86b95eef44d")
 		)
 		(fp_line
 			(start -12.7 -1.27)
@@ -4825,7 +4825,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "c7d1b0a2-5d35-4bf9-b36a-aeaee456bab1")
+			(uuid "69423650-ba4f-4ace-88b9-6aecfedd0a17")
 		)
 		(fp_line
 			(start 12.7 1.27)
@@ -4835,7 +4835,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9ee4095b-c2e3-4226-bd1a-9b30d02f97d3")
+			(uuid "cec25b45-3163-4922-8959-b18ffb1bed1e")
 		)
 		(fp_line
 			(start -12.7 1.27)
@@ -4845,7 +4845,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ccdafdac-c461-4ad2-a63f-86078433b686")
+			(uuid "4c6bc8db-f005-49a5-95b5-6abd249cf662")
 		)
 		(fp_circle
 			(center -13.8 -0.1)
@@ -4856,7 +4856,7 @@
 			)
 			(fill none)
 			(layer "B.SilkS")
-			(uuid "61b75de9-da5f-4b56-9ae5-7308d10cf099")
+			(uuid "102577b6-5ceb-4f5c-8ab8-f9c99f6c0918")
 		)
 		(fp_line
 			(start 12.95 -1.52)
@@ -4866,7 +4866,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "2d62c80b-88e2-4749-94b8-77eb3b2f7b8a")
+			(uuid "9c4e2e87-1fce-4352-a311-3d7d63006053")
 		)
 		(fp_line
 			(start -12.95 -1.52)
@@ -4876,7 +4876,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "53ca39b8-8f4b-4ec6-925b-adfa15adbc4a")
+			(uuid "ca8c47c9-9895-4dab-ba86-6d3e7a749c50")
 		)
 		(fp_line
 			(start 12.95 1.52)
@@ -4886,7 +4886,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "795875b5-03a4-424d-b669-0bfd2480ac2b")
+			(uuid "2981222e-e42c-40e8-aca1-dabe2ab57e93")
 		)
 		(fp_line
 			(start -12.95 1.52)
@@ -4896,7 +4896,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f9641750-3e97-477b-a652-a4f90c5e017a")
+			(uuid "a486c12f-2ab0-421b-8ce5-77b3b2b6dc20")
 		)
 		(fp_line
 			(start 12.7 -1.27)
@@ -4906,7 +4906,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "16469030-a966-495a-8fa6-962b8b535c0f")
+			(uuid "50fbf8c4-814c-4c77-a12b-69b85416d3bb")
 		)
 		(fp_line
 			(start -12.7 -1.27)
@@ -4916,7 +4916,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "a5b2e655-d1f1-4b53-a5ed-430395930057")
+			(uuid "83d50b2a-3e23-4e7b-b725-36ba620a7a61")
 		)
 		(fp_line
 			(start 12.7 1.27)
@@ -4926,7 +4926,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e399e654-0877-45d7-bd41-8e39b525e987")
+			(uuid "c0448ea6-126d-4eda-8fbe-9cb484b7012e")
 		)
 		(fp_line
 			(start -12.7 1.27)
@@ -4936,7 +4936,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "9e125f45-01a9-463e-a7cf-23da258a6fe0")
+			(uuid "2381bb34-946a-4397-b1a2-dcda0bd8836b")
 		)
 		(pad "1" thru_hole rect
 			(at -11.43 0 90)
@@ -4945,7 +4945,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "6e14e8e7-6459-4e34-b246-d306e25f4bc7")
+			(uuid "10b41398-68f5-4f29-8c90-563dc14cba0b")
 		)
 		(pad "2" thru_hole circle
 			(at -8.89 0 90)
@@ -4954,7 +4954,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "e3f25fb5-c671-48c8-8bb1-ea301e833af5")
+			(uuid "2f7cd5f0-577a-44ff-ae97-3f7957f8fac7")
 		)
 		(pad "3" thru_hole circle
 			(at -6.35 0 90)
@@ -4963,7 +4963,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "18873415-798a-440e-91e3-9f811bb38b6f")
+			(uuid "4dab7b34-a88f-4044-9fb0-9f2cafde4e99")
 		)
 		(pad "4" thru_hole circle
 			(at -3.81 0 90)
@@ -4972,7 +4972,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "511e7c96-e286-4fd9-bc5d-46d8625505fe")
+			(uuid "74976a04-937e-4401-8b85-2e1dcee2b588")
 		)
 		(pad "5" thru_hole circle
 			(at -1.27 0 90)
@@ -4981,7 +4981,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "a14a0060-ae94-4dc6-9eb7-e12aafc11cdf")
+			(uuid "260253d7-ce88-4672-a991-9fb6c98cc65c")
 		)
 		(pad "6" thru_hole circle
 			(at 1.27 0 90)
@@ -4990,7 +4990,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "54fbc614-eceb-42a0-ad23-883033090e34")
+			(uuid "ca5c5481-df3e-445c-baf8-4724c072b7a0")
 		)
 		(pad "7" thru_hole circle
 			(at 3.81 0 90)
@@ -4999,7 +4999,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "c098ae66-4274-4233-90be-3d4a91b54837")
+			(uuid "ff474db0-e5da-44de-8138-ab573268dbec")
 		)
 		(pad "8" thru_hole circle
 			(at 6.35 0 90)
@@ -5008,7 +5008,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "ec8d9dd6-77a6-4607-b1eb-39c2d3c2f93c")
+			(uuid "97660d3b-0995-47dc-aa5c-ef322e237e68")
 		)
 		(pad "9" thru_hole circle
 			(at 8.89 0 90)
@@ -5017,7 +5017,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "a0e7d76e-76ac-48e2-b14a-84d71bbcec7f")
+			(uuid "f21feebc-9a3c-4db4-a050-d613b46c91c5")
 		)
 		(pad "10" thru_hole circle
 			(at 11.43 0 90)
@@ -5026,9 +5026,9 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(solder_mask_margin 0.102)
-			(uuid "67fe2b2b-ccaa-4a87-9f9e-4c5ad26c1335")
+			(uuid "713635c4-09d6-4019-bae9-d972b5b18035")
 		)
-		(model "C:/Users/glenn/Downloads/1-1571994-0.stp"
+		(model "C:/Users/kojis/Documents/git/vibraphone-controller/3d/1-1571994-0.stp"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -5083,14 +5083,5 @@
 		(fill none)
 		(layer "F.Mask")
 		(uuid "ca06f215-475e-426a-8a63-aa47cb4eb407")
-	)
-	(group ""
-		(uuid "23aed20b-64ea-4fba-a8aa-8b5371f4f157")
-		(members "2347a9dc-3a41-4556-b339-5271348dfa6e" "487513c3-a87d-4cee-b0b1-ae7799356bc7"
-			"636e1e19-5804-4280-8668-badeca2b0480" "7538833b-bbc8-4e64-82e9-081c07710a72"
-			"8ffb916a-4e67-4924-8b0b-9ed224b0f452" "b33f57fa-ca80-4936-9825-9168eae5298a"
-			"d4df1c70-eb83-47e0-aea0-b0866b8de9de" "dbe37c22-f5a4-456a-89d5-616bcb79b091"
-			"e5ab1c16-3691-4806-a347-4f5b6204b778"
-		)
 	)
 )
